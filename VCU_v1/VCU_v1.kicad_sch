@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e")
+	(paper "A4")
+	(lib_symbols)
+	(text "salutations huzz"
+		(exclude_from_sim no)
+		(at 60.452 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "940b8ee5-385f-4750-9aaf-2cb95e45c511")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
