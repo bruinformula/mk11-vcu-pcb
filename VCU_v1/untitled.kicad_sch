@@ -1,0 +1,50 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c180a1e0-4de3-4e3b-991a-1ecac9d97f71")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 102.87 51.435)
+		(size 60.325 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83ba1e49-760f-4968-9bbd-ff2e6c9ab433")
+		(property "Sheetname" "Buck Converters"
+			(at 102.87 50.7234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bucks.kicad_sch"
+			(at 102.87 63.4496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d"
+					(page "3")
+				)
+			)
+		)
+	)
+)

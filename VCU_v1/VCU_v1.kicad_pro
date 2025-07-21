@@ -411,6 +411,14 @@
     [
       "4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e",
       "Root"
+    ],
+    [
+      "9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d",
+      "Power"
+    ],
+    [
+      "83ba1e49-760f-4968-9bbd-ff2e6c9ab433",
+      "Buck Converters"
     ]
   ],
   "text_variables": {}
