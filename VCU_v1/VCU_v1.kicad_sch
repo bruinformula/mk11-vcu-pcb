@@ -57,6 +57,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 118.11 60.96)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e80ce31-2e03-4996-9ce1-7444f7c213d1")
+		(property "Sheetname" "STM32-Root"
+			(at 118.11 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 118.11 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

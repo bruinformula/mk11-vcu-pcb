@@ -419,6 +419,10 @@
     [
       "83ba1e49-760f-4968-9bbd-ff2e6c9ab433",
       "Buck Converters"
+    ],
+    [
+      "9e80ce31-2e03-4996-9ce1-7444f7c213d1",
+      "STM32-Root"
     ]
   ],
   "text_variables": {}
