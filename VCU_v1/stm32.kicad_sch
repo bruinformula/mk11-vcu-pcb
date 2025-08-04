@@ -2,7 +2,269 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f4489008-955b-4873-8637-d865c26c963e")
+	(uuid "077d7718-b6ce-4a3e-a2a6-03b3069d8dc2")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 114.3 64.77)
+		(size 38.1 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29ead45c-8267-4bd0-864c-0e3840f5813f")
+		(property "Sheetname" "STM32H723ZGT6"
+			(at 114.3 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 114.3 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FDCAN2_TX" input
+			(at 152.4 80.01 0)
+			(uuid "a1b73227-ab75-4b88-9aba-e7b8a3f10041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FDCAN2_RX" input
+			(at 152.4 83.82 0)
+			(uuid "a6a897e8-4788-487f-878b-d3529f724275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 152.4 102.87 0)
+			(uuid "36049402-05cb-4409-b3ef-ecca4f9c0bab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 152.4 106.68 0)
+			(uuid "9ebbf485-07c8-4ef8-82b9-6c2f5582e3a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DEBUG_SWCLK" input
+			(at 114.3 68.58 180)
+			(uuid "6ac370e8-b43f-489c-b8c8-34a754a52fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN3_TX" input
+			(at 152.4 91.44 0)
+			(uuid "8472b6d3-9df6-4538-8ca9-870e188a6daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 152.4 121.92 0)
+			(uuid "a2ef8ec2-aa77-4cc4-b198-6c9647ba3555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DEBUG_SWO" input
+			(at 114.3 76.2 180)
+			(uuid "09f3385f-de89-4994-89bd-641a53c0420e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN1_RX" input
+			(at 152.4 72.39 0)
+			(uuid "bb98ebf9-4f37-429b-984d-d6d1b873f866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 152.4 118.11 0)
+			(uuid "285aa61c-3941-4b26-8839-e3010e7151f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FDCAN1_TX" input
+			(at 152.4 68.58 0)
+			(uuid "5140f8a9-c136-475b-9384-01f6df410146")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DEBUG_SWDIO" input
+			(at 114.3 72.39 180)
+			(uuid "df32dbea-ae91-4c76-93db-3bcce706aaaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN3_RX" input
+			(at 152.4 95.25 0)
+			(uuid "dc4e5d2e-166b-438d-8135-141be0eb3e4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S2-CK" input
+			(at 114.3 83.82 180)
+			(uuid "eadb43aa-4288-4d26-a0b7-84ae62d2f6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC3-IN9" input
+			(at 114.3 121.92 180)
+			(uuid "4e49f4c1-9612-43ba-9c1a-b8896affd4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC3-IN7" input
+			(at 114.3 114.3 180)
+			(uuid "064b5585-6209-4433-89d9-a841664b3b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 152.4 110.49 0)
+			(uuid "760a40bb-3cc5-4c71-b683-8543f9ccd424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC3-IN0" input
+			(at 114.3 106.68 180)
+			(uuid "ddb35da8-46cd-4498-b701-4fca1c98076d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S2-SDO" input
+			(at 114.3 87.63 180)
+			(uuid "e0381729-935c-4522-bc52-eb1670b2bc5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC3-IN8" input
+			(at 114.3 118.11 180)
+			(uuid "05014ff3-e0a3-4c0e-88e3-6c55cd47a477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC3-IN6" input
+			(at 114.3 110.49 180)
+			(uuid "461e04ed-d540-4efd-8571-70dfb0106adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S2-WS" input
+			(at 114.3 91.44 180)
+			(uuid "0a046ec1-0c67-4617-913f-d6c2e70e272f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1"
+					(page "6")
+				)
+			)
+		)
+	)
 )
