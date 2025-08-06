@@ -432,6 +432,30 @@
     [
       "29ead45c-8267-4bd0-864c-0e3840f5813f",
       "STM32H723ZGT6"
+    ],
+    [
+      "b7d8a0a7-c635-4617-919c-9464d63ae6b1",
+      "Input Protections"
+    ],
+    [
+      "7728fa73-43ca-4882-a7da-9eb85b8c7f39",
+      "Connector-Root"
+    ],
+    [
+      "e9b395f6-4dc2-4900-af35-fb201d3635f3",
+      "Pedals"
+    ],
+    [
+      "6a8587bb-cd3f-4184-88f1-dc60fd50b84f",
+      "CAN-Bus1"
+    ],
+    [
+      "123f4073-58d5-4064-8337-35636c3c5d98",
+      "CAN-Bus2"
+    ],
+    [
+      "cbc1c466-35f6-4c79-a4cf-f81b09dc6777",
+      "CAN-Bus3"
     ]
   ],
   "text_variables": {}

@@ -16,6 +16,48 @@
 		(uuid "940b8ee5-385f-4750-9aaf-2cb95e45c511")
 	)
 	(sheet
+		(at 186.69 60.96)
+		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7728fa73-43ca-4882-a7da-9eb85b8c7f39")
+		(property "Sheetname" "Connector-Root"
+			(at 186.69 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector-root.kicad_sch"
+			(at 186.69 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 59.69)
 		(size 20.955 7.62)
 		(exclude_from_sim no)

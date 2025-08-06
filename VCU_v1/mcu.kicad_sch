@@ -28758,6 +28758,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 110.49) (xy 213.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3db730-d507-4527-b7b9-fa1898bbe5d1")
+	)
+	(wire
+		(pts
 			(xy 58.42 41.91) (xy 62.23 41.91)
 		)
 		(stroke
@@ -29597,6 +29607,17 @@
 		)
 		(uuid "06f606b3-92dd-4d0f-92f3-88d275edd3a8")
 	)
+	(hierarchical_label "SDMMC_D2"
+		(shape input)
+		(at 167.64 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10cbed6e-8a9d-4184-b67c-391e31048107")
+	)
 	(hierarchical_label "I2S2-SDO"
 		(shape input)
 		(at 167.64 106.68 180)
@@ -29663,6 +29684,17 @@
 		)
 		(uuid "424e0ea7-6ac4-4d69-8c1a-4cf1d267d555")
 	)
+	(hierarchical_label "SDMMC_D0"
+		(shape input)
+		(at 171.45 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46f33243-52fc-44de-a369-a47bbceb3b9e")
+	)
 	(hierarchical_label "DEBUG_SWCLK"
 		(shape input)
 		(at 125.73 78.74 180)
@@ -29695,6 +29727,17 @@
 			(justify left)
 		)
 		(uuid "5552a893-5466-46e3-865a-369312027e81")
+	)
+	(hierarchical_label "SDMMC_D1"
+		(shape input)
+		(at 167.64 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "582ebc45-c3f1-403b-a834-11867fd2c17a")
 	)
 	(hierarchical_label "DEBUG_SWDIO"
 		(shape input)
@@ -29739,6 +29782,17 @@
 			(justify left)
 		)
 		(uuid "80d53b78-0429-408d-8d00-33d86c3488d5")
+	)
+	(hierarchical_label "SDMMC_D3"
+		(shape input)
+		(at 167.64 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81daa858-141f-45c4-857b-da808501131c")
 	)
 	(hierarchical_label "FDCAN1_RX"
 		(shape input)
@@ -29795,6 +29849,17 @@
 		)
 		(uuid "c48e44e9-ca64-43cc-87d8-9154aa32e5e3")
 	)
+	(hierarchical_label "SDMMC_CK"
+		(shape input)
+		(at 167.64 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7f3a5a3-e640-4b25-b9cc-cdceaab20c3c")
+	)
 	(hierarchical_label "I2S2-CK"
 		(shape input)
 		(at 171.45 63.5 0)
@@ -29827,6 +29892,17 @@
 			(justify left)
 		)
 		(uuid "f05e74d7-2b84-4771-9627-f1591f2e6733")
+	)
+	(hierarchical_label "SDMMC_CMD"
+		(shape input)
+		(at 213.36 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffd0a03c-fb51-4105-a0eb-7011b7833eba")
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
