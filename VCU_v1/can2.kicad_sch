@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e12b70d8-b8ab-48ca-95ca-c9f7ae49c014")
+	(uuid "043db692-ccb6-4886-80e6-d8293ddabeba")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Capacitors:06035C104KAT2A"
@@ -1308,12 +1308,6 @@
 		(uuid "8598fa81-55e3-489b-ab9c-a008f3607442")
 	)
 	(junction
-		(at 226.06 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad1267b6-5adb-42df-a97d-72fb987f1c91")
-	)
-	(junction
 		(at 190.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1361,16 +1355,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 73.66) (xy 226.06 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b4376c-f027-4f73-b381-51eafc28154a")
-	)
-	(wire
-		(pts
 			(xy 186.69 97.79) (xy 203.2 97.79)
 		)
 		(stroke
@@ -1401,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 97.79) (xy 226.06 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a243e8d-95c8-4619-a2ff-7ea9833e5fa2")
-	)
-	(wire
-		(pts
 			(xy 113.03 71.12) (xy 113.03 78.74)
 		)
 		(stroke
@@ -1418,16 +1392,6 @@
 			(type default)
 		)
 		(uuid "4d6455ac-b6f5-4034-be62-65a2f629a1d0")
-	)
-	(wire
-		(pts
-			(xy 203.2 73.66) (xy 226.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bab8808-7a0c-4b91-866a-cd8d2aa898cb")
 	)
 	(wire
 		(pts
@@ -1451,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 190.5 82.55)
+			(xy 190.5 69.85) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1511,23 +1475,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 227.33 97.79)
+			(xy 203.2 97.79) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b37cac69-343c-415b-8b67-52c711c1f85a")
-	)
-	(wire
-		(pts
-			(xy 203.2 76.2) (xy 203.2 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c47e0b-692c-4e54-9ffd-c57799469da6")
 	)
 	(wire
 		(pts
@@ -1584,7 +1538,7 @@
 	)
 	(hierarchical_label "CAN2_H"
 		(shape input)
-		(at 190.5 78.74 90)
+		(at 190.5 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)

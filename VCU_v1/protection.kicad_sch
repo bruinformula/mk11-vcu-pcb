@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e8adf1b1-4dd3-4870-83c3-7e31a85c76c5")
+	(uuid "c6d62860-2ef3-46cd-bad2-6c07194dae4d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Resistors:RMCF0603FT100K"

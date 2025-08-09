@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bacd2384-ac14-413a-8faf-9827c69284bc")
+	(uuid "97ce0897-4730-4920-8ae4-b627fe4e3533")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card"
@@ -1067,6 +1067,36 @@
 		)
 		(uuid "da18f788-393e-4f9f-9a50-293e1a5fc36c")
 	)
+	(no_connect
+		(at 99.06 45.72)
+		(uuid "406be1e1-4ea8-4308-80e7-46df3c872303")
+	)
+	(no_connect
+		(at 259.08 60.96)
+		(uuid "59ba73bc-8511-4881-9cb3-812812bcf6bc")
+	)
+	(no_connect
+		(at 118.11 45.72)
+		(uuid "e8c78c8a-09ff-4723-ae60-ec77252bd1b4")
+	)
+	(no_connect
+		(at 114.3 45.72)
+		(uuid "f6e55a70-1f74-4d1e-8439-3ceb6dba49de")
+	)
+	(no_connect
+		(at 106.68 45.72)
+		(uuid "ff151089-8ad3-4bee-9401-f7c86c2c9dd0")
+	)
+	(wire
+		(pts
+			(xy 194.31 41.91) (xy 194.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024d5a63-ec41-45e3-86ff-1fbfe0037353")
+	)
 	(wire
 		(pts
 			(xy 228.6 128.27) (xy 232.41 128.27)
@@ -1096,6 +1126,26 @@
 			(type default)
 		)
 		(uuid "0ef976cb-95c5-49bf-b29b-131fc38c29be")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f596076-d3e0-411b-b132-f9f4566c995c")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c4233e-81c4-4d8b-a429-2947a6711c41")
 	)
 	(wire
 		(pts
@@ -1189,6 +1239,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 41.91) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc1dfde-1e32-43e7-8b14-b0984d12c6a0")
+	)
+	(wire
+		(pts
 			(xy 247.65 41.91) (xy 247.65 44.45)
 		)
 		(stroke
@@ -1226,6 +1286,36 @@
 			(type default)
 		)
 		(uuid "7060bea0-0fd4-4feb-ab11-cb237d93e947")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f0524c-9da2-40c8-81f6-2a83081eaa15")
+	)
+	(wire
+		(pts
+			(xy 163.83 58.42) (xy 163.83 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3edac7-10f4-4907-a257-ab73a4842e0f")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92823d29-a7b2-4677-8002-4f994f32243d")
 	)
 	(wire
 		(pts
@@ -1299,6 +1389,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 41.91) (xy 125.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d606d878-c17f-4c6d-a386-3e07697bfa7c")
+	)
+	(wire
+		(pts
 			(xy 276.86 148.59) (xy 276.86 153.67)
 		)
 		(stroke
@@ -1306,6 +1406,16 @@
 			(type default)
 		)
 		(uuid "d60f5fa0-7056-49f9-ac21-99947733e9b4")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 121.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b11b89-e9fb-413e-bbdd-e20ab3505572")
 	)
 	(wire
 		(pts
@@ -1319,6 +1429,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 41.91) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6582d3-27e7-48ab-8e60-410a39ad949e")
+	)
+	(wire
+		(pts
+			(xy 190.5 41.91) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfca38da-48c1-4515-9569-be6e148e579c")
+	)
+	(wire
+		(pts
 			(xy 262.89 57.15) (xy 262.89 60.96)
 		)
 		(stroke
@@ -1329,6 +1459,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 41.91) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9263b7e-948d-4f70-844b-20091d830319")
+	)
+	(wire
+		(pts
 			(xy 262.89 41.91) (xy 262.89 44.45)
 		)
 		(stroke
@@ -1336,6 +1476,16 @@
 			(type default)
 		)
 		(uuid "ebe63e30-d627-4dd1-83fe-3e182f5b238b")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5b771a-3127-4afa-af4f-bea65e223d2b")
 	)
 	(wire
 		(pts
@@ -1376,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "f783b358-e950-4283-bf64-45f4c3e7cf6d")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ffdb20-5f39-4b8c-8730-2139e040fa3c")
 	)
 	(wire
 		(pts
@@ -1420,6 +1580,28 @@
 		)
 		(uuid "0780f5ce-62ff-4aa9-bf00-f78e023ae771")
 	)
+	(hierarchical_label "SPEAKER+"
+		(shape input)
+		(at 163.83 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b77c3e7-8145-4fad-8611-74446d169ece")
+	)
+	(hierarchical_label "BMS-FAULT"
+		(shape input)
+		(at 198.12 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17e0fb3b-33b9-4d01-a975-9c02bdd4c12e")
+	)
 	(hierarchical_label "IMD_FAULT-"
 		(shape input)
 		(at 266.7 60.96 270)
@@ -1452,6 +1634,17 @@
 			(justify left)
 		)
 		(uuid "21c1a95b-c3c8-4193-97ef-d9b0ae865689")
+	)
+	(hierarchical_label "APPS2-4.8V"
+		(shape input)
+		(at 125.73 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2604e961-a395-4b08-9d91-cff758583983")
 	)
 	(hierarchical_label "GEN_DB2-"
 		(shape input)
@@ -1497,6 +1690,28 @@
 		)
 		(uuid "5b69f42d-40e6-4d06-9dc6-d4de4541f19e")
 	)
+	(hierarchical_label "APPS1-SIG"
+		(shape input)
+		(at 95.25 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60524870-c048-4c3a-a834-9869f600809b")
+	)
+	(hierarchical_label "BSE-4.8V"
+		(shape input)
+		(at 121.92 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68eaf0eb-8a5a-40d7-864e-68c0ff6bf780")
+	)
 	(hierarchical_label "BSPD_FAULT-"
 		(shape input)
 		(at 262.89 60.96 270)
@@ -1541,7 +1756,7 @@
 		)
 		(uuid "82c92e5c-828d-42fd-9d44-55cd6fccf94b")
 	)
-	(hierarchical_label "GEN_DB1+"
+	(hierarchical_label "BRAKE_LIGHT"
 		(shape input)
 		(at 259.08 41.91 90)
 		(effects
@@ -1551,6 +1766,28 @@
 			(justify left)
 		)
 		(uuid "854ed93a-9d62-41bb-9e99-77f396cce223")
+	)
+	(hierarchical_label "SPEAKER-"
+		(shape input)
+		(at 163.83 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85a5175e-e3d2-4cd4-987c-39b170364e85")
+	)
+	(hierarchical_label "BSPD-FAULT"
+		(shape input)
+		(at 190.5 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "898f0d24-f40f-413d-a28f-77bf3d4b57ee")
 	)
 	(hierarchical_label "GEN_DB3-"
 		(shape input)
@@ -1574,6 +1811,28 @@
 		)
 		(uuid "9139696a-a1d9-4802-ac7d-784896b54692")
 	)
+	(hierarchical_label "APPS1-GND"
+		(shape input)
+		(at 129.54 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "968a2d6c-e5d0-4d7e-9a6b-bf97a78ca4dc")
+	)
+	(hierarchical_label "IMD-FAULT"
+		(shape input)
+		(at 194.31 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "986112b4-90ab-43b5-b62a-6033921fa322")
+	)
 	(hierarchical_label "RTD_BTN-"
 		(shape input)
 		(at 240.03 60.96 270)
@@ -1596,16 +1855,38 @@
 		)
 		(uuid "a5f502c0-f35d-4576-9a0d-bc0d0c7c986d")
 	)
-	(hierarchical_label "GEN_DB1-"
+	(hierarchical_label "BSE-GND"
 		(shape input)
-		(at 259.08 60.96 270)
+		(at 121.92 64.77 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "aba66d14-175f-4d2e-b520-a237452deb22")
+		(uuid "ac5f5bb6-ae16-465e-85ce-7f5208ebe409")
+	)
+	(hierarchical_label "APPS2-GND"
+		(shape input)
+		(at 125.73 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b06473-6860-41ea-a414-43c0816ede33")
+	)
+	(hierarchical_label "BSE-SIG"
+		(shape input)
+		(at 110.49 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca123535-739a-4cef-8e08-ed110fd49b7c")
 	)
 	(hierarchical_label "uSD_CLK"
 		(shape input)
@@ -1651,6 +1932,17 @@
 		)
 		(uuid "d45fde74-6ce8-4514-981e-9ec762f4b799")
 	)
+	(hierarchical_label "APPS1-4.8V"
+		(shape input)
+		(at 129.54 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df620ee4-a7c3-43cd-b2c9-6af8ca420d10")
+	)
 	(hierarchical_label "uSD_D1"
 		(shape input)
 		(at 228.6 143.51 180)
@@ -1672,6 +1964,17 @@
 			(justify right)
 		)
 		(uuid "fdc7256e-f1d2-4aec-b583-01906d42ab5b")
+	)
+	(hierarchical_label "APPS2-SIG"
+		(shape input)
+		(at 102.87 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffd743d2-0df5-4f11-b1ab-698c90fec75e")
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
@@ -1764,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "Molex-MX150:MX150_20-pin_2x10_Board_Connector")
-		(at 180.34 50.8 0)
+		(at 179.07 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1773,7 +2076,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d107ad4-2f57-41f4-9fa6-4713c1302fa8")
 		(property "Reference" "U5"
-			(at 160.02 49.5299 0)
+			(at 158.75 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +2085,7 @@
 			)
 		)
 		(property "Value" "MX150 20-pin"
-			(at 160.02 52.0699 0)
+			(at 158.75 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +2094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 50.8 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 50.8 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 50.8 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2121,7 @@
 			)
 		)
 		(property "P/N" "348302001"
-			(at 180.34 50.8 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2130,7 @@
 			)
 		)
 		(property "Mouser P/N" "538-34830-2001"
-			(at 180.34 50.8 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2351,7 @@
 	)
 	(symbol
 		(lib_id "Molex-MX150:MX150_20-pin_2x10_Board_Connector")
-		(at 111.76 50.8 0)
+		(at 110.49 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2057,7 +2360,7 @@
 		(fields_autoplaced yes)
 		(uuid "37756e49-5205-491c-9195-bafd2f8e825a")
 		(property "Reference" "U4"
-			(at 91.44 49.5299 0)
+			(at 90.17 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2369,7 @@
 			)
 		)
 		(property "Value" "MX150 20-pin"
-			(at 91.44 52.0699 0)
+			(at 90.17 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 50.8 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 50.8 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 50.8 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2405,7 @@
 			)
 		)
 		(property "P/N" "348302001"
-			(at 111.76 50.8 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2414,7 @@
 			)
 		)
 		(property "Mouser P/N" "538-34830-2001"
-			(at 111.76 50.8 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

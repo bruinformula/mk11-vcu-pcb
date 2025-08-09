@@ -2187,10 +2187,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be42fa7b-37b7-4abc-81a3-ef4cfc0eb1be")
 		(property "Reference" "C19"
-			(at 110.49 113.0299 0)
+			(at 109.728 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2198,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 110.49 115.5699 0)
+			(at 109.728 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

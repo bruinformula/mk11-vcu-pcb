@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "71ccb742-487c-437d-8785-2124f2c314f4")
+	(uuid "516f74ec-79f0-45df-a67c-86ee3ec6aecf")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Capacitors:06035C104KAT2A"
@@ -1313,12 +1313,6 @@
 		(color 0 0 0 0)
 		(uuid "abb86856-3a81-46ea-ab62-45d5603562e6")
 	)
-	(junction
-		(at 227.33 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20e0649-5979-4b26-8759-975bc93e0eda")
-	)
 	(wire
 		(pts
 			(xy 157.48 60.96) (xy 157.48 69.85)
@@ -1338,16 +1332,6 @@
 			(type default)
 		)
 		(uuid "23278331-8e3e-4db2-a1c7-a3c65a3f2aa1")
-	)
-	(wire
-		(pts
-			(xy 204.47 67.31) (xy 204.47 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0545aa-af10-4eec-b6eb-a6971f75eb68")
 	)
 	(wire
 		(pts
@@ -1421,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 228.6 88.9)
+			(xy 204.47 88.9) (xy 215.9 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1448,26 +1432,6 @@
 			(type default)
 		)
 		(uuid "873b69db-55c1-4968-8ed8-c807c2ec97b0")
-	)
-	(wire
-		(pts
-			(xy 204.47 64.77) (xy 227.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cd4ad6-7820-4824-88d3-b33c8f183d87")
-	)
-	(wire
-		(pts
-			(xy 204.47 88.9) (xy 227.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae56fe48-c7e8-4ab4-8118-6cfdc01f7f8d")
 	)
 	(wire
 		(pts
@@ -1511,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 191.77 73.66)
+			(xy 191.77 63.5) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1531,16 +1495,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 64.77) (xy 227.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa58ccdd-b194-4e3b-86a3-82c03f9b4d6d")
-	)
-	(wire
-		(pts
 			(xy 123.19 73.66) (xy 124.46 73.66)
 		)
 		(stroke
@@ -1551,7 +1505,7 @@
 	)
 	(hierarchical_label "CAN1_L"
 		(shape input)
-		(at 228.6 88.9 0)
+		(at 215.9 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1562,7 +1516,7 @@
 	)
 	(hierarchical_label "CAN1_H"
 		(shape input)
-		(at 191.77 69.85 90)
+		(at 191.77 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)

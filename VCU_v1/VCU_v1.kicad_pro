@@ -456,6 +456,14 @@
     [
       "cbc1c466-35f6-4c79-a4cf-f81b09dc6777",
       "CAN-Bus3"
+    ],
+    [
+      "fc2680a9-a8ea-4990-a1a5-962e78220668",
+      "RTD Audio"
+    ],
+    [
+      "f8ea3f05-3cbf-4dbc-a4a3-9fac89656c11",
+      "Dash+External Interface"
     ]
   ],
   "text_variables": {}
