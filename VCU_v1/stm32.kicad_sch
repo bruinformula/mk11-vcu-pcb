@@ -1024,7 +1024,7 @@
 	)
 	(sheet
 		(at 113.03 40.64)
-		(size 38.1 129.54)
+		(size 38.1 157.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1048,7 +1048,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 113.03 170.7646 0)
+			(at 113.03 198.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,6 +1474,186 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO_G14" input
+			(at 151.13 190.5 0)
+			(uuid "d6e996f6-1690-4d10-9fe1-2d21530f52f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_PWM_CH1" input
+			(at 151.13 129.54 0)
+			(uuid "fd001211-7826-4267-9949-8ef9f84ada77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G2" input
+			(at 151.13 144.78 0)
+			(uuid "f54974d5-875e-4ab4-a0d2-b3545f1d01ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G3" input
+			(at 151.13 148.59 0)
+			(uuid "e144a32d-4a52-4b3d-aaa1-4f981132fdfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G5" input
+			(at 151.13 156.21 0)
+			(uuid "b59e4c37-1121-4902-a889-6d884621b7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_PWM_CH2" input
+			(at 151.13 133.35 0)
+			(uuid "74a96f5e-ce61-409a-a845-4f2872346446")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G4" input
+			(at 151.13 152.4 0)
+			(uuid "86a437c9-f881-4923-80a8-06c1a6e9589c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G6" input
+			(at 151.13 160.02 0)
+			(uuid "8e31d1a7-cd06-4b96-811b-3c1872fa45a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G8" input
+			(at 151.13 167.64 0)
+			(uuid "e9caf463-df37-48e5-ac87-0e89d20d0c3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G7" input
+			(at 151.13 163.83 0)
+			(uuid "e372c559-7899-47d3-bfd9-0090f3ccc708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G11" input
+			(at 151.13 179.07 0)
+			(uuid "c3c319d5-5595-4c44-8cd9-def7022a375b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G10" input
+			(at 151.13 175.26 0)
+			(uuid "01396d01-78f3-46ec-bdd7-18ab8e7d8ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G9" input
+			(at 151.13 171.45 0)
+			(uuid "aba9c7c2-3299-47fc-8b47-511d2a705fb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G12" input
+			(at 151.13 182.88 0)
+			(uuid "f079bd17-7f20-43a5-91c8-6234609d5b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G15" input
+			(at 151.13 194.31 0)
+			(uuid "55308b94-0a9a-44f7-b9e4-db716b3c3b88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_G13" input
+			(at 151.13 186.69 0)
+			(uuid "817a05ca-a7f5-4c84-ae30-a9df1bb28fd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM12_PWM_CH2" input
+			(at 151.13 140.97 0)
+			(uuid "84254e84-f65b-426e-84c8-e3630041c6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_PWM_CH3" input
+			(at 151.13 137.16 0)
+			(uuid "6352f95c-592c-4e59-aa17-d55f9503ab38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

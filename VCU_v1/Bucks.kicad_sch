@@ -3145,6 +3145,12 @@
 		(uuid "3cd3487c-59fa-4404-92a3-5826ee4d8e08")
 	)
 	(junction
+		(at 205.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573ee868-e185-4426-9ced-b80680efe21b")
+	)
+	(junction
 		(at 163.83 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3161,12 +3167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a144edf-92ac-4d30-9d3d-de7324404f82")
-	)
-	(junction
-		(at 194.31 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "723fe930-ac6b-422a-a28b-a62b333dd8ef")
 	)
 	(junction
 		(at 76.2 48.26)
@@ -3221,12 +3221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4277af1-1270-46dd-9c21-186ad872a553")
-	)
-	(junction
-		(at 208.28 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff490760-28cc-42b0-b5f9-6807e4d950d3")
 	)
 	(no_connect
 		(at 113.03 66.04)
@@ -3334,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 194.31 114.3)
+			(xy 185.42 114.3) (xy 205.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3424,13 +3418,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 208.28 114.3)
+			(xy 205.74 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44402381-36c5-4339-9adc-a92f45b1d465")
+		(uuid "447e8bd1-3d09-4f68-b201-0bd4fddbdfca")
 	)
 	(wire
 		(pts
@@ -3491,16 +3485,6 @@
 			(type default)
 		)
 		(uuid "5d2d2cfb-8baa-45a3-acaa-4ef6abf40092")
-	)
-	(wire
-		(pts
-			(xy 208.28 114.3) (xy 222.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea6e3d8-c9e6-4c02-a481-799be698425c")
 	)
 	(wire
 		(pts
@@ -3571,16 +3555,6 @@
 			(type default)
 		)
 		(uuid "88988503-ecb3-41b2-b3dd-f5223180fe71")
-	)
-	(wire
-		(pts
-			(xy 208.28 121.92) (xy 208.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4e6dd5-7966-45fa-a018-f7eac45008e3")
 	)
 	(wire
 		(pts
@@ -3714,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 194.31 127)
+			(xy 205.74 121.92) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
@@ -6138,72 +6112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 208.28 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54d7caf0-d32e-4603-b815-ada3f2f05ab4")
-		(property "Reference" "#PWR0100"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e6cfd7f-9d53-4fb6-b200-91846034a267")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BFR Capacitors:CL10A106KP8NNNC")
 		(at 101.6 118.11 0)
 		(unit 1)
@@ -6610,193 +6518,6 @@
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BFR Capacitors:35ZLH220MEFC8X11.5")
-		(at 208.28 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82baf985-bc71-4167-a683-b43016545ded")
-		(property "Reference" "C61"
-			(at 212.09 116.2049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 212.09 118.7449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 208.28 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220uF 35V 56mΩ ESR Through-hole Electrolytic Capacitor"
-			(at 208.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/35ZLH220MEFC8X11.5.lib"
-			(at 208.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "35ZLH220MEFC8X11.5"
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "220uF 35V Through-hole Capacitor"
-			(at 208.28 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 208.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 208.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "Mouser"
-			(at 208.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "1189-1863-ND"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "232-35ZLH220MEFC8X15"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "No"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using electrolytic_capacitor_spec.txt"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de7873e6-d626-4d47-90c6-67c51e47fd1b")
-		)
-		(pin "1"
-			(uuid "bebc885f-3a0d-43cc-9517-8165862911aa")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
-					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -7458,7 +7179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 127 0)
+		(at 205.74 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7467,7 +7188,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a7e494-73cd-46ff-ad69-744941885843")
 		(property "Reference" "#PWR099"
-			(at 194.31 133.35 0)
+			(at 205.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 132.08 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 127 0)
+			(at 205.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 127 0)
+			(at 205.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 127 0)
+			(at 205.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7245,7 @@
 	)
 	(symbol
 		(lib_id "BFR Capacitors:50ZLH100MEFC8X11.5")
-		(at 194.31 118.11 0)
+		(at 205.74 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7533,7 +7254,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae3c1d18-4700-4985-a553-fe9cb63b8080")
 		(property "Reference" "C60"
-			(at 198.12 116.2049 0)
+			(at 209.55 116.2049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,8 +7262,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 198.12 118.7449 0)
+		(property "Value" "150u"
+			(at 209.55 118.7449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7272,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 194.31 120.65 0)
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,8 +7280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 194.31 121.92 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf"
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,8 +7289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 50V 61mΩ ESR Through-hole Electrolytic Capacitor"
-			(at 194.31 118.11 0)
+		(property "Description" "EEU-FM1V151B"
+			(at 205.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,8 +7298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
-			(at 194.31 123.19 0)
+		(property "Sim.Device" ""
+			(at 205.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,8 +7307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 194.31 124.46 0)
+		(property "Sim.Pins" ""
+			(at 205.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,8 +7316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/50ZLH100MEFC8X11.5.lib"
-			(at 194.31 125.73 0)
+		(property "Sim.Library" ""
+			(at 205.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,8 +7325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "50ZLH100MEFC8X11.5"
-			(at 194.31 127 0)
+		(property "Sim.Name" ""
+			(at 205.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,8 +7334,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "100uF 50V Through-hole Capacitor"
-			(at 194.31 128.27 0)
+		(property "Pretty Name" ""
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7344,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 194.31 129.54 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7353,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 194.31 130.81 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7362,7 @@
 			)
 		)
 		(property "Order From" "Mouser"
-			(at 194.31 132.08 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,8 +7370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "P12392-ND"
-			(at 194.564 130.302 0)
+		(property "Digikey P/N" ""
+			(at 205.994 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,8 +7379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "667-EEU-FM1H101"
-			(at 194.31 134.112 0)
+		(property "Mouser P/N" "667-EEU-FM1V151B "
+			(at 205.74 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7389,7 @@
 			)
 		)
 		(property "LCSC P/N" ""
-			(at 194.31 133.35 0)
+			(at 205.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7398,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "No"
-			(at 194.056 137.414 0)
+			(at 205.486 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7407,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using electrolytic_capacitor_spec.txt"
-			(at 194.056 138.684 0)
+			(at 205.486 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)

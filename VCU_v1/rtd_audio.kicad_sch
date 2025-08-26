@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7a551841-c9c2-466c-a97e-5a116304da59")
+	(uuid "f6b90e24-dc0d-477d-a853-815e2a029415")
 	(paper "A4")
 	(lib_symbols
 		(symbol ".Capacitor-Polarized:TAJA106K016RNJ"

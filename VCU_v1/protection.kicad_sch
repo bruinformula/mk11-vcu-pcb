@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c6d62860-2ef3-46cd-bad2-6c07194dae4d")
+	(uuid "a0d8ec42-9e81-45cf-8c48-71c4ca1643ae")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Resistors:RMCF0603FT100K"
@@ -259,6 +259,156 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +996,7 @@
 	)
 	(rectangle
 		(start 68.58 41.91)
-		(end 129.54 87.63)
+		(end 171.45 87.63)
 		(stroke
 			(width 0)
 			(type default)
@@ -866,7 +1016,7 @@
 		)
 		(uuid "952a9147-a689-435e-a074-cca022a87703")
 	)
-	(text "Reverse Polarity Protection\n"
+	(text "Reverse Polarity Protection + TVS\n\n"
 		(exclude_from_sim no)
 		(at 97.536 38.862 0)
 		(effects
@@ -875,6 +1025,12 @@
 			)
 		)
 		(uuid "a19aad9b-b39f-4609-b14a-6769bb4462b7")
+	)
+	(junction
+		(at 127 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80733783-1758-47be-ab24-fc8a0d85baf8")
 	)
 	(junction
 		(at 106.68 57.15)
@@ -900,6 +1056,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c32278-1050-4473-8989-a951224d0b58")
+	)
+	(wire
+		(pts
 			(xy 78.74 57.15) (xy 90.17 57.15)
 		)
 		(stroke
@@ -910,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 114.3 57.15)
+			(xy 106.68 57.15) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
@@ -940,6 +1106,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 62.23) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b9faa6-017e-4dc1-9de2-51f004d30256")
+	)
+	(wire
+		(pts
 			(xy 95.25 73.66) (xy 95.25 76.2)
 		)
 		(stroke
@@ -947,6 +1123,16 @@
 			(type default)
 		)
 		(uuid "e0fd7636-ed31-4027-b6eb-057ae24e6d48")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f644f227-f790-471c-8d7b-ea75e0e88137")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
@@ -961,7 +1147,7 @@
 	)
 	(hierarchical_label "VBAT_FILT"
 		(shape input)
-		(at 114.3 57.15 0)
+		(at 152.4 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1113,7 +1299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12Vz"
+		(property "Value" "27Vz"
 			(at 109.22 62.2299 90)
 			(effects
 				(font
@@ -1149,7 +1335,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SMAF4742A-TP "
+		(property "P/N" "SMAF4750A-TP "
 			(at 106.68 60.96 90)
 			(effects
 				(font
@@ -1158,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "833-SMAF4742A-TP"
+		(property "Mouser P/N" "833-SMAF4750A-TP "
 			(at 106.68 60.96 90)
 			(effects
 				(font
@@ -1167,7 +1353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C669032"
+		(property "LCSC P/N" "C712317"
 			(at 106.68 60.96 90)
 			(effects
 				(font
@@ -1186,6 +1372,72 @@
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/b7d8a0a7-c635-4617-919c-9464d63ae6b1"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7567f8-2baf-4326-b2d4-67b8559fa84a")
+		(property "Reference" "#PWR0102"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f83232d-33d4-4ad5-8361-c078c7121d01")
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/b7d8a0a7-c635-4617-919c-9464d63ae6b1"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1373,6 +1625,103 @@
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/b7d8a0a7-c635-4617-919c-9464d63ae6b1"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 127 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d077e5c3-b6ca-4630-b958-03efa024fdf5")
+		(property "Reference" "D7"
+			(at 129.54 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ30CA"
+			(at 129.54 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/page-not-found?url=/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=09A6AE9A-73CB-4AC4-ACAC-E6DAB92AB953"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SMBJ30CA"
+			(at 127 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "576-SMBJ30CA "
+			(at 127 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C8837"
+			(at 127 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd86287-dc66-420f-92c8-1fa5097fd264")
+		)
+		(pin "2"
+			(uuid "539f6eff-0a2a-4680-99b0-b9e9cf482d0e")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/b7d8a0a7-c635-4617-919c-9464d63ae6b1"
+					(reference "D7")
 					(unit 1)
 				)
 			)

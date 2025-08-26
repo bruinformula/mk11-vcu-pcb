@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "516f74ec-79f0-45df-a67c-86ee3ec6aecf")
+	(uuid "49188f51-37ee-4cad-b342-3a98879ac75e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Capacitors:06035C104KAT2A"
