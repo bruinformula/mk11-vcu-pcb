@@ -201,157 +201,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol ".Test-Point:RH-5015"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RH-5015"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310260935_ronghe-RH-5015_C5199798.pdf"
-				(at 0 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Surface-mount grabby test point"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Link" "https://jlcpcb.com/partdetail/Ronghe-RH5015/C5199798"
-				(at 0 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "36-5015CT-ND"
-				(at 0 -45.72 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "534-5015"
-				(at 0 -49.53 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C5199798"
-				(at 0 -53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Ronghe"
-				(at 0 -38.1 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer P/N" "RH-5015"
-				(at 0 -41.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "RH-5015_1_1"
-				(circle
-					(center 0 2.032)
-					(radius 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 0.9906)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BFR Capacitors:06035C221J4Z2A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3260,186 +3109,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_1"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS5430:TPS5430"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3924,12 +3593,6 @@
 		(uuid "316527bf-3019-483a-830a-c585657012b4")
 	)
 	(junction
-		(at 224.79 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3250fa82-ce1a-44cd-b24f-1a66b51343ee")
-	)
-	(junction
 		(at 185.42 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4025,12 +3688,6 @@
 		(color 0 0 0 0)
 		(uuid "e4277af1-1270-46dd-9c21-186ad872a553")
 	)
-	(junction
-		(at 226.06 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5a1cb56-8cdd-4991-827e-e377384043da")
-	)
 	(no_connect
 		(at 113.03 66.04)
 		(uuid "088b08f6-61e4-470e-9902-6542e2eb65cc")
@@ -4064,16 +3721,6 @@
 			(type default)
 		)
 		(uuid "05e3edf4-44e6-466d-8102-47eb57db14e5")
-	)
-	(wire
-		(pts
-			(xy 222.25 48.26) (xy 226.06 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0843a935-8c97-4a8a-8956-b83743c9bfdf")
 	)
 	(wire
 		(pts
@@ -4157,16 +3804,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ed5044-2985-44ee-8b25-bfcb04676bea")
-	)
-	(wire
-		(pts
 			(xy 185.42 114.3) (xy 205.74 114.3)
 		)
 		(stroke
@@ -4194,6 +3831,16 @@
 			(type default)
 		)
 		(uuid "1aeaf504-d0d6-43d2-befd-ef044b32112e")
+	)
+	(wire
+		(pts
+			(xy 222.25 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e197a78-a82d-4a4c-9555-60057014d52b")
 	)
 	(wire
 		(pts
@@ -4354,16 +4001,6 @@
 			(type default)
 		)
 		(uuid "766f6064-91ba-4407-9db8-4e5342f2ac0f")
-	)
-	(wire
-		(pts
-			(xy 226.06 48.26) (xy 228.6 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b7616c-45cd-47d6-ab84-35a189a1da02")
 	)
 	(wire
 		(pts
@@ -4567,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 224.79 114.3)
+			(xy 220.98 114.3) (xy 228.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5186,145 +4823,6 @@
 		)
 	)
 	(symbol
-		(lib_id ".Test-Point:RH-5015")
-		(at 224.79 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c12d6f0-3f82-477e-ac31-6cbe66bde37b")
-		(property "Reference" "TP2"
-			(at 223.2668 109.0437 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "RH-5015"
-			(at 223.2668 106.8935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 224.79 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310260935_ronghe-RH-5015_C5199798.pdf"
-			(at 224.79 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface-mount grabby test point"
-			(at 224.79 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/Ronghe-RH5015/C5199798"
-			(at 224.79 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "36-5015CT-ND"
-			(at 224.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "534-5015"
-			(at 224.79 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C5199798"
-			(at 224.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ronghe"
-			(at 224.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "RH-5015"
-			(at 224.79 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5199798"
-			(at 224.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b205a82-0c11-428b-a5cb-b2e26555f12b")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 125.73 0)
 		(unit 1)
@@ -5559,7 +5057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf"
+		(property "Datasheet" ""
 			(at 74.93 121.92 0)
 			(effects
 				(font
@@ -5867,7 +5365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS5430DDAR:Untitled"
+		(property "Footprint" ""
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -6703,7 +6201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS5430DDAR:Untitled"
+		(property "Footprint" ""
 			(at 125.73 45.72 0)
 			(effects
 				(font
@@ -7529,7 +7027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HCM1A1104-150-R:Untitled"
+		(property "Footprint" ""
 			(at 175.26 48.26 0)
 			(effects
 				(font
@@ -7625,7 +7123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 220.98 125.73 0)
 			(effects
 				(font
@@ -7906,7 +7404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMTU2032-C:Untitled"
+		(property "Footprint" ""
 			(at 173.99 114.3 0)
 			(effects
 				(font
@@ -9548,7 +9046,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 222.25 59.69 90)
 		(unit 1)
@@ -9576,7 +9073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 222.25 59.69 0)
 			(effects
 				(font
@@ -9706,145 +9203,6 @@
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id ".Test-Point:RH-5015")
-		(at 226.06 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7074b90-15dd-48b6-9f84-3998139256d7")
-		(property "Reference" "TP1"
-			(at 224.5368 43.0037 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "RH-5015"
-			(at 224.5368 40.8535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 226.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310260935_ronghe-RH-5015_C5199798.pdf"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface-mount grabby test point"
-			(at 226.06 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/Ronghe-RH5015/C5199798"
-			(at 226.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "36-5015CT-ND"
-			(at 226.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "534-5015"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C5199798"
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ronghe"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "RH-5015"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5199798"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1d71fce-51b9-47fb-ae9d-6c8f70e63554")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d/83ba1e49-760f-4968-9bbd-ff2e6c9ab433"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10571,7 +9929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -10580,7 +9938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf"
+		(property "Datasheet" ""
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -10589,8 +9947,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220uF 50V Through-hole Electrolytic Capacitor"
+		(property "Description" "220uF 35V 56mΩ ESR Through-hole Electrolytic Capacitor"
 			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/35ZLH220MEFC8X11.5.lib"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "35ZLH220MEFC8X11.5"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "220uF 35V Through-hole Capacitor"
+			(at 209.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10028,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "EEU-FM1H221B "
+		(property "Digikey P/N" "1189-1863-ND"
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -10634,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "667-EEU-FM1H221B "
+		(property "Mouser P/N" "232-35ZLH220MEFC8X15"
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -10644,6 +10047,24 @@
 			)
 		)
 		(property "LCSC P/N" ""
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "No"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using electrolytic_capacitor_spec.txt"
 			(at 209.55 67.31 0)
 			(effects
 				(font
