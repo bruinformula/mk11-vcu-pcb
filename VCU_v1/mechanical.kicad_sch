@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9ead4020-a775-4da7-969d-dd2ea61d50d6")
+	(uuid "3b69c79e-2b82-4b3a-991b-5030f4018d78")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BFR Connectors:M3_Hole"

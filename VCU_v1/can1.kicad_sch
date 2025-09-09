@@ -548,7 +548,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,7 +602,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 		(pin "4"
 			(uuid "4690207a-47e8-45a2-80b9-39e237c03d84")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "837d433a-a9ff-458d-a6cb-d658a92b1960")
 		)
 		(pin "7"
@@ -1989,7 +1989,7 @@
 		(pin "6"
 			(uuid "7a149f6b-9336-43cd-9fd4-128b91aeb7c4")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "36c32834-769a-4bfa-a1ce-101e4ea2d88f")
 		)
 		(instances

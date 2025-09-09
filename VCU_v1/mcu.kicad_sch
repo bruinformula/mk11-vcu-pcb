@@ -32035,16 +32035,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 242.57) (xy 25.4 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c075af3-fde0-47e8-8cbd-faf7dd34a741")
-	)
-	(wire
-		(pts
 			(xy 322.58 146.05) (xy 326.39 146.05)
 		)
 		(stroke
@@ -32462,16 +32452,6 @@
 			(type default)
 		)
 		(uuid "683679dd-0c47-4675-b549-39f8d80d6317")
-	)
-	(wire
-		(pts
-			(xy 26.67 236.22) (xy 25.4 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e945b9-b18c-4038-a2ee-22b93d78189f")
 	)
 	(wire
 		(pts
@@ -37160,17 +37140,6 @@
 		)
 		(uuid "2138f3d6-a6f5-42d1-965a-d2c882464e20")
 	)
-	(hierarchical_label "GPIO_OUT_E10"
-		(shape input)
-		(at 316.23 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b5312a9-1e92-4cd9-a1b4-9643e0e60ff5")
-	)
 	(hierarchical_label "DEBUG_SWO"
 		(shape input)
 		(at 326.39 130.81 0)
@@ -37236,6 +37205,17 @@
 			(justify left)
 		)
 		(uuid "3c69b71d-1b82-4c0b-aefa-8039b10c96cf")
+	)
+	(hierarchical_label "GPIO_E10"
+		(shape input)
+		(at 316.23 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e581466-ae98-4ef0-be79-a944a95ab091")
 	)
 	(hierarchical_label "GPIO_G10"
 		(shape input)
@@ -37567,17 +37547,6 @@
 		)
 		(uuid "a7680cd7-1c82-4c91-98cc-817721b1db42")
 	)
-	(hierarchical_label "GPIO_OUT_E11"
-		(shape input)
-		(at 316.23 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa210093-f178-429c-96e9-11cb5a6c2e19")
-	)
 	(hierarchical_label "GPIO_G6"
 		(shape input)
 		(at 369.57 198.12 180)
@@ -37676,6 +37645,17 @@
 			(justify left)
 		)
 		(uuid "e87bddcc-f648-4086-a95a-fc6b492ad3d6")
+	)
+	(hierarchical_label "GPIO_E11"
+		(shape input)
+		(at 316.23 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed158789-509a-4036-8432-97e61c3e1a9b")
 	)
 	(hierarchical_label "ADC3-IN7"
 		(shape input)
@@ -48819,7 +48799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-160-18-28X-AEN-TR :Untitled"
+		(property "Footprint" "ECS-160-18-28X-AEN-TR:Untitled"
 			(at 38.1 236.22 0)
 			(effects
 				(font
