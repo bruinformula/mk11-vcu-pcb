@@ -8647,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EEU-FM1V151B"
+		(property "Description" "EEU-FM1V151B 50V 150uF electrolytic capacitor"
 			(at 205.74 118.11 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
+		(property "Digikey P/N" "P12395-ND "
 			(at 205.994 130.302 0)
 			(effects
 				(font
@@ -8737,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "667-EEU-FM1V151B "
+		(property "Mouser P/N" "667-EEU-FM1H151B "
 			(at 205.74 134.112 0)
 			(effects
 				(font
