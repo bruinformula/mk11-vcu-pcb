@@ -493,4 +493,15 @@
 		(uuid "b5b2d135-8061-43bc-8e3d-64acad6caa35")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/basim/Downloads/mk11-vcu/components/3D_models/0348302001.stp"
+		(offset
+			(xyz -2.5 -8 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
 )
