@@ -280,6 +280,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 57.15) (xy 181.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01be994e-4a2a-4f64-b031-0051f1456e58")
+	)
+	(wire
+		(pts
 			(xy 132.08 76.2) (xy 152.4 76.2)
 		)
 		(stroke
@@ -407,16 +417,6 @@
 			(type default)
 		)
 		(uuid "29109884-bf7c-429c-9000-96b79948df81")
-	)
-	(wire
-		(pts
-			(xy 82.55 83.82) (xy 82.55 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c86c62-89c4-4f08-bda1-8cf1d7da278c")
 	)
 	(wire
 		(pts
@@ -770,6 +770,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 60.96) (xy 186.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa6a120-e2f9-4330-9af3-ccb174c343e2")
+	)
+	(wire
+		(pts
 			(xy 132.08 237.49) (xy 152.4 237.49)
 		)
 		(stroke
@@ -790,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 82.55 83.82)
+			(xy 189.23 53.34) (xy 181.61 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1050,16 +1060,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 102.87) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa70c53-b8f9-4625-b279-31da4982855b")
-	)
-	(wire
-		(pts
 			(xy 132.08 45.72) (xy 152.4 45.72)
 		)
 		(stroke
@@ -1139,6 +1139,71 @@
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3597b8a7-7c68-4dba-81e4-36de17245364")
+		(property "Reference" "#PWR025"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d33d0ee9-6c3f-42f2-9132-a61ddcf773fb")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1814,6 +1879,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vin-" input
+			(at 181.61 57.15 0)
+			(uuid "713a4361-897a-4062-99be-c3f244075cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin+" input
+			(at 181.61 53.34 0)
+			(uuid "6b511c3e-e2b7-4b7a-961a-fa379dee8e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
@@ -1823,7 +1908,7 @@
 		)
 	)
 	(sheet
-		(at 55.88 81.28)
+		(at 189.23 45.72)
 		(size 19.05 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1839,7 +1924,7 @@
 		)
 		(uuid "9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d")
 		(property "Sheetname" "Power"
-			(at 55.88 80.5684 0)
+			(at 189.23 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1933,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 55.88 92.0246 0)
+			(at 189.23 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,13 +1942,13 @@
 			)
 		)
 		(pin "VBAT+" input
-			(at 74.93 83.82 0)
+			(at 189.23 53.34 180)
 			(uuid "31542186-95a6-495a-92b2-7e16c8369af6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -2555,16 +2640,6 @@
 		(pin "CAN2_H" input
 			(at 76.2 123.19 0)
 			(uuid "8541a136-1a1c-4039-bd6c-daf8281984ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin" input
-			(at 76.2 102.87 0)
-			(uuid "ea4025fd-d6ab-43ff-bdf4-300e0b88482a")
 			(effects
 				(font
 					(size 1.27 1.27)

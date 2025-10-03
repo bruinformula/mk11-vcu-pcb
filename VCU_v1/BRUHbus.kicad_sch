@@ -1538,7 +1538,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BFR Resistors:RMCF0603FT1K60"
+		(symbol "BFR Resistors:RMCF0603FT2K40"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1554,7 +1554,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "1.6k"
+			(property "Value" "2.4k"
 				(at 1.27 2.54 0)
 				(effects
 					(font
@@ -1581,7 +1581,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.6kΩ 0603 Resistor"
+			(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1608,7 +1608,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1617,7 +1617,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Name" "RMCF0603FT1K60"
+			(property "Sim.Name" "RMCF0603FT2K40"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1626,7 +1626,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pretty Name" "1.6kΩ 0603 Resistor"
+			(property "Pretty Name" "2.4kΩ 0603 Resistor"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1653,7 +1653,7 @@
 					(hide yes)
 				)
 			)
-			(property "Order From" "Mouser"
+			(property "Order From" "LCSC"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1662,7 +1662,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
+			(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1671,7 +1671,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser P/N" "708-RMCF0603FT1K60"
+			(property "Mouser P/N" "708-RMCF0603FT2K40"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1680,7 +1680,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC P/N" "C22847"
+			(property "LCSC P/N" "C22940"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1689,7 +1689,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Basic Part" "No"
+			(property "JLCPCB Basic Part" "Yes"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1707,7 +1707,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RMCF0603FT1K60_0_1"
+			(symbol "RMCF0603FT2K40_0_1"
 				(polyline
 					(pts
 						(xy -2.286 0) (xy -2.54 0)
@@ -1769,7 +1769,7 @@
 					)
 				)
 			)
-			(symbol "RMCF0603FT1K60_1_1"
+			(symbol "RMCF0603FT2K40_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -4063,7 +4063,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -4084,7 +4084,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -4110,7 +4110,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4128,7 +4128,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4166,7 +4166,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4371,12 +4371,6 @@
 		(uuid "2014d122-1909-43a7-afde-b71d236e52d2")
 	)
 	(junction
-		(at 250.19 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25e19b28-e51d-43f9-90fb-b10f745b14d5")
-	)
-	(junction
 		(at 332.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4393,6 +4387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42d8114f-12f2-40e4-8bb4-2701fb374197")
+	)
+	(junction
+		(at 250.19 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6592dd5b-44de-4a27-87a7-b4cb2d0c06a0")
 	)
 	(junction
 		(at 231.14 59.69)
@@ -4461,12 +4461,6 @@
 		(uuid "f31da7d1-0d1f-4327-9ea9-03dfea5dd84f")
 	)
 	(junction
-		(at 137.16 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3236659-61d6-4dba-8683-68e071564036")
-	)
-	(junction
 		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4487,6 +4481,14 @@
 	(no_connect
 		(at 161.29 109.22)
 		(uuid "99ee21a6-4982-4cc8-ae4c-f9abed40ff36")
+	)
+	(no_connect
+		(at 134.62 104.14)
+		(uuid "e38ded6b-ecb3-4524-bb6a-84acd245b073")
+	)
+	(no_connect
+		(at 134.62 106.68)
+		(uuid "eadc49e5-34ca-4d5b-bc74-64a27785b7ea")
 	)
 	(wire
 		(pts
@@ -4527,16 +4529,6 @@
 			(type default)
 		)
 		(uuid "09edc21f-9767-44a5-a6d0-3c82da760f49")
-	)
-	(wire
-		(pts
-			(xy 134.62 106.68) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab81ed5-5de9-429c-8645-b84c253765a1")
 	)
 	(wire
 		(pts
@@ -4700,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313564d1-547c-4127-9d4c-6c6bb0c01da3")
-	)
-	(wire
-		(pts
 			(xy 233.68 106.68) (xy 238.76 106.68)
 		)
 		(stroke
@@ -4827,16 +4809,6 @@
 			(type default)
 		)
 		(uuid "4ace5ba7-162f-4dfa-856f-36b96a1c84b6")
-	)
-	(wire
-		(pts
-			(xy 134.62 104.14) (xy 137.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae0d92e-7919-403b-994e-4bb9a7113b61")
 	)
 	(wire
 		(pts
@@ -5220,16 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 143.51 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b182c47a-e7eb-4894-95bb-a552eb0e7452")
-	)
-	(wire
-		(pts
 			(xy 332.74 34.29) (xy 332.74 38.1)
 		)
 		(stroke
@@ -5460,16 +5422,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c58ae1-636f-43d7-8c2c-77b8d743a3a6")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 134.62 88.9)
 		)
 		(stroke
@@ -5591,17 +5543,6 @@
 			(justify right)
 		)
 		(uuid "21ef4823-0d47-4f33-874b-5f1d424fe1a2")
-	)
-	(hierarchical_label "Vin"
-		(shape input)
-		(at 143.51 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31488ed9-538e-4ec7-b6a3-56ebdb243f54")
 	)
 	(hierarchical_label "CAN2_H"
 		(shape input)
@@ -5950,72 +5891,6 @@
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 335.28 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1778ebc7-1b90-465d-96b8-b253ffd2d6e5")
-		(property "Reference" "#PWR0142"
-			(at 335.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 335.28 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 335.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0687f1b9-c677-4cee-b335-6811532aa3e7")
-		)
-		(instances
-			(project ""
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -6664,258 +6539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 336.55 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eb451e2-e8e1-4e1f-9115-ccc0d09244d9")
-		(property "Reference" "#PWR0143"
-			(at 336.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 336.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 336.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afdb9a65-7189-41f4-94be-45829b18bac7")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
-		(at 87.63 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37b331e4-133d-4bf0-93c3-d356542a8124")
-		(property "Reference" "R40"
-			(at 87.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.6k"
-			(at 87.63 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.6kΩ 0603 Resistor"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 87.63 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
-			(at 87.63 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603FT1K60"
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 87.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "Mouser"
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C22847"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "No"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85f4950b-d3fa-47e7-ad09-52912093ccc5")
-		)
-		(pin "1"
-			(uuid "70041ebb-bc47-441f-863c-f6b02b127cdb")
-		)
-		(instances
-			(project ""
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
 		(at 280.67 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6923,8 +6547,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37ed0889-377e-4324-a84b-344f9ddb578f")
-		(property "Reference" "R82"
+		(uuid "46630f08-893e-41e2-8221-0118bccc390f")
+		(property "Reference" "R21"
 			(at 280.67 77.47 0)
 			(effects
 				(font
@@ -6932,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Value" "1.6k"
+		(property "Value" "2.4k"
 			(at 280.67 80.01 0)
 			(effects
 				(font
@@ -6958,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6kΩ 0603 Resistor"
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
 			(at 280.67 83.82 0)
 			(effects
 				(font
@@ -6985,7 +6609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -6994,7 +6618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "RMCF0603FT1K60"
+		(property "Sim.Name" "RMCF0603FT2K40"
 			(at 280.67 92.71 0)
 			(effects
 				(font
@@ -7003,7 +6627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
 			(at 280.67 93.98 0)
 			(effects
 				(font
@@ -7030,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" "Mouser"
+		(property "Order From" "LCSC"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -7039,7 +6663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -7048,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -7057,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C22847"
+		(property "LCSC P/N" "C22940"
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -7066,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Basic Part" "No"
+		(property "JLCPCB Basic Part" "Yes"
 			(at 280.67 99.06 0)
 			(effects
 				(font
@@ -7085,15 +6709,200 @@
 			)
 		)
 		(pin "2"
-			(uuid "9f7a7d04-2db0-44dc-b6da-cb094061489d")
+			(uuid "55091a06-dbb8-4395-91f3-a3fad9d3873f")
 		)
 		(pin "1"
-			(uuid "26405105-4c44-4318-90bd-4d802e979d7d")
+			(uuid "21bf7298-7a93-474b-8a1e-e7c9313e0922")
 		)
 		(instances
-			(project "VCU_v1"
+			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R82")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
+		(at 280.67 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bdd8a5-bf86-412e-987d-4f10abf1d2d5")
+		(property "Reference" "R18"
+			(at 280.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 280.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 280.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 280.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
+			(at 280.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 280.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 280.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
+			(at 280.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT2K40"
+			(at 280.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
+			(at 280.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 280.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 280.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
+			(at 280.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
+			(at 280.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22940"
+			(at 280.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 280.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 280.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34415605-da56-4feb-8cd1-8ca1df2e119b")
+		)
+		(pin "2"
+			(uuid "13eff69c-3b48-4c28-af9b-565a02334164")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/BSD235N_Rev2%205.pdf"
 			(at 163.83 114.3 0)
 			(effects
 				(font
@@ -7435,6 +7244,193 @@
 		)
 	)
 	(symbol
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
+		(at 64.77 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a70285-308b-412d-abed-e3cd1d438886")
+		(property "Reference" "R17"
+			(at 67.31 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 67.31 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT2K40"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22940"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4dccdec-345d-4434-bccb-8a655b64ec2b")
+		)
+		(pin "1"
+			(uuid "0c024463-9ddb-4328-8e99-f12c01d12065")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 90.17 0)
 		(unit 1)
@@ -7603,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/BSD235N_Rev2%205.pdf"
 			(at 252.73 59.69 0)
 			(effects
 				(font
@@ -7643,6 +7639,72 @@
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 64.77 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d30acc4-fd24-4a1a-9d68-b756d8c38a61")
+		(property "Reference" "#PWR0103"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b43464c5-aa70-4d4c-8a44-e4b964f98438")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -7781,6 +7843,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 257.81 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7333991d-8c33-4da0-921e-4e3ef14a4026")
+		(property "Reference" "#PWR018"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91373875-c593-4644-996c-3de1207bc9ba")
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 335.28 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "762b39fb-6492-4283-9780-72e564d68190")
+		(property "Reference" "#PWR022"
+			(at 335.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 335.28 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 335.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bb0d06d-8cac-4e5e-9a86-ec5a7af691bf")
+		)
+		(instances
+			(project "VCU_v1"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
 		(at 62.23 105.41 0)
 		(unit 1)
@@ -7817,7 +8011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/BSD235N_Rev2%205.pdf"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -8373,35 +8567,33 @@
 		)
 	)
 	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
-		(at 64.77 93.98 90)
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
+		(at 87.63 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a662e41d-6699-47f7-8f3c-44f2543990fd")
-		(property "Reference" "R38"
-			(at 67.31 92.7099 90)
+		(uuid "afc4d5d7-442a-421f-8753-ea6b07c80037")
+		(property "Reference" "R12"
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1.6k"
-			(at 67.31 95.2499 90)
+		(property "Value" "2.4k"
+			(at 87.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 67.31 93.98 0)
+			(at 87.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8602,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 68.58 93.98 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,8 +8610,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6kΩ 0603 Resistor"
-			(at 64.77 93.98 0)
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
+			(at 87.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8620,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 69.85 93.98 0)
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8629,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 71.12 93.98 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,8 +8637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
-			(at 72.39 93.98 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,8 +8646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "RMCF0603FT1K60"
-			(at 73.66 93.98 0)
+		(property "Sim.Name" "RMCF0603FT2K40"
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,8 +8655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
-			(at 74.93 93.98 0)
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
+			(at 87.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8665,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 76.2 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8674,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 77.47 93.98 0)
+			(at 87.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,8 +8682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" "Mouser"
-			(at 78.74 93.98 0)
+		(property "Order From" "LCSC"
+			(at 87.63 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,8 +8691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
-			(at 80.01 93.98 0)
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,8 +8700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
-			(at 80.01 93.98 0)
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,8 +8709,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C22847"
-			(at 80.01 93.98 0)
+		(property "LCSC P/N" "C22940"
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,8 +8718,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Basic Part" "No"
-			(at 80.01 93.98 0)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +8728,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 80.01 93.98 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,16 +8736,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2198d8a3-6620-4f34-9281-390c34083175")
-		)
 		(pin "2"
-			(uuid "5170bfe3-f593-4cce-8130-d53ab6e013ec")
+			(uuid "079b8e39-b760-461c-bd65-928e9d17a336")
+		)
+		(pin "1"
+			(uuid "0fee108f-157b-4c11-996e-6ab84eeec929")
 		)
 		(instances
-			(project "VCU_v1"
+			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R38")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8747,193 +8939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
-		(at 257.81 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba9f5c0e-dc2d-4836-be36-ccfd1fc078de")
-		(property "Reference" "R80"
-			(at 260.35 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.6k"
-			(at 260.35 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 260.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 261.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.6kΩ 0603 Resistor"
-			(at 257.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 262.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 264.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
-			(at 265.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603FT1K60"
-			(at 266.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
-			(at 267.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 270.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "Mouser"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C22847"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "No"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 273.05 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d57e5b3-55c0-4bec-8cc4-cb517df5396f")
-		)
-		(pin "2"
-			(uuid "376d4236-2832-47e8-8df3-053380e266d9")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 154.94 92.71 270)
 		(unit 1)
@@ -9001,72 +9006,6 @@
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 250.19 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c13c84dd-dac0-488b-b120-49b52ec31be3")
-		(property "Reference" "#PWR0132"
-			(at 250.19 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 250.19 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3672cb5-4c91-4064-acb1-40a7b5d84d58")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -9430,72 +9369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 257.81 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da9e216b-8074-4d17-bcf4-55f23cc716b5")
-		(property "Reference" "#PWR0134"
-			(at 257.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 257.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7223c911-c6ca-49f9-bee0-aeaeebf3b206")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BFR Resistors:RMCF0603FT10K0")
 		(at 233.68 110.49 90)
 		(unit 1)
@@ -9683,17 +9556,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 113.03 0)
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
+		(at 250.19 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0f7dca1-0ecd-41ba-ab77-25615417ffd6")
-		(property "Reference" "#PWR0110"
-			(at 137.16 119.38 0)
+		(uuid "e2f1fb8a-9221-41ca-8ea8-c0339f95226f")
+		(property "Reference" "R38"
+			(at 252.73 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 252.73 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 252.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,16 +9592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 113.03 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 254 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,8 +9601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 137.16 113.03 0)
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
+			(at 250.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,39 +9610,150 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 113.03 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT2K40"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 261.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 262.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 264.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22940"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "794871aa-8508-41c6-a539-88b28b1e8f3f")
 		)
 		(pin "1"
-			(uuid "66e0939a-e4ea-4059-ad92-7c7386071e8d")
+			(uuid "89d0de78-83a3-4d5d-be65-4ca8658f44ad")
 		)
 		(instances
-			(project "VCU_v1"
+			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0110")
+					(reference "R38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 64.77 87.63 0)
+		(lib_id "power:+12V")
+		(at 336.55 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3610cdd-6a02-4c25-9145-166a684eb253")
-		(property "Reference" "#PWR0103"
-			(at 64.77 91.44 0)
+		(uuid "e4f93b6e-e7d4-458a-9b61-dce824941e7c")
+		(property "Reference" "#PWR020"
+			(at 336.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,8 +9761,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 64.77 82.55 0)
+		(property "Value" "+12V"
+			(at 336.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 87.63 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 87.63 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,8 +9787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 64.77 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,12 +9797,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bd145de-fa43-4924-8dd1-a5f30cdac57e")
+			(uuid "e4407303-3c50-49b2-b98f-ca654179b3a7")
 		)
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "#PWR0103")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 250.19 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb218dc1-6b32-48a8-b571-7223269b38fe")
+		(property "Reference" "#PWR016"
+			(at 250.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b5d897-a6e6-481f-9d6f-1dd2b5d1f264")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/BSD235N_Rev2%205.pdf"
 			(at 260.35 106.68 0)
 			(effects
 				(font
@@ -10083,17 +10143,17 @@
 		)
 	)
 	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
-		(at 250.19 45.72 90)
+		(lib_id "BFR Resistors:RMCF0603FT2K40")
+		(at 257.81 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f73f03a2-bcb3-4330-8f01-7db7f3950b8b")
-		(property "Reference" "R79"
-			(at 252.73 44.4499 90)
+		(uuid "f3406033-7da9-4c94-ba33-e5b0920e9067")
+		(property "Reference" "R39"
+			(at 260.35 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,8 +10161,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.6k"
-			(at 252.73 46.9899 90)
+		(property "Value" "2.4k"
+			(at 260.35 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 252.73 45.72 0)
+			(at 260.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10180,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 254 45.72 0)
+			(at 261.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,8 +10188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6kΩ 0603 Resistor"
-			(at 250.19 45.72 0)
+		(property "Description" "2.4kΩ 0603 JLCPCB Basic Resistor"
+			(at 257.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10198,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 255.27 45.72 0)
+			(at 262.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10207,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 256.54 45.72 0)
+			(at 264.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,8 +10215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
-			(at 257.81 45.72 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT2K40.lib"
+			(at 265.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,8 +10224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "RMCF0603FT1K60"
-			(at 259.08 45.72 0)
+		(property "Sim.Name" "RMCF0603FT2K40"
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,8 +10233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
-			(at 260.35 45.72 0)
+		(property "Pretty Name" "2.4kΩ 0603 Resistor"
+			(at 267.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +10243,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 261.62 45.72 0)
+			(at 269.24 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +10252,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 262.89 45.72 0)
+			(at 270.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,8 +10260,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" "Mouser"
-			(at 264.16 45.72 0)
+		(property "Order From" "LCSC"
+			(at 271.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,8 +10269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
-			(at 265.43 45.72 0)
+		(property "Digikey P/N" "RMCF0603FT2K40CT-ND"
+			(at 273.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,8 +10278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
-			(at 265.43 45.72 0)
+		(property "Mouser P/N" "708-RMCF0603FT2K40"
+			(at 273.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,8 +10287,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C22847"
-			(at 265.43 45.72 0)
+		(property "LCSC P/N" "C22940"
+			(at 273.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,8 +10296,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Basic Part" "No"
-			(at 265.43 45.72 0)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 273.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10306,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 265.43 45.72 0)
+			(at 273.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,15 +10315,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "61e6139f-a637-43e1-bd2b-78d872f89048")
+			(uuid "a392af2d-5fc0-4687-acee-ac6c982746ba")
 		)
 		(pin "2"
-			(uuid "7a5c32d2-d870-4c2d-b047-2a0bd95c58d1")
+			(uuid "f849a2b9-bda9-444a-bae8-d02387e48ee3")
 		)
 		(instances
-			(project "VCU_v1"
+			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R79")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -10495,191 +10555,6 @@
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BFR Resistors:RMCF0603FT1K60")
-		(at 280.67 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe1ffef6-fe1c-4683-ad77-7597e78c1273")
-		(property "Reference" "R81"
-			(at 280.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.6k"
-			(at 280.67 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 280.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 280.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.6kΩ 0603 Resistor"
-			(at 280.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 280.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 280.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT1K60.lib"
-			(at 280.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603FT1K60"
-			(at 280.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1.6kΩ 0603 Resistor"
-			(at 280.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 280.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 280.67 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "Mouser"
-			(at 280.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RMCF0603FT1K60CT-ND"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "708-RMCF0603FT1K60"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C22847"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "No"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 280.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "921c6a33-b10c-4be4-abd0-625eee5523c9")
-		)
-		(pin "1"
-			(uuid "e458c25e-11ec-491c-8d2b-30f9c60bb8bb")
-		)
-		(instances
-			(project "VCU_v1"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/e6a56bed-03ec-48ef-ba2a-7fe246be825d"
-					(reference "R81")
 					(unit 1)
 				)
 			)

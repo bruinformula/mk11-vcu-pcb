@@ -969,10 +969,16 @@
 		(at 113.03 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3eb33ab2-a192-4912-b1e3-c9974f82eea5")
+		(uuid "416ffbee-13d8-4de5-814f-554b4ba0182b")
 	)
 	(junction
-		(at 104.14 90.17)
+		(at 113.03 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45d61976-bdcb-49f0-b569-50d440b30a42")
+	)
+	(junction
+		(at 104.14 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a0e3c0-e80b-4e61-8051-94037e66b2b5")
@@ -990,7 +996,7 @@
 		(uuid "d0033e13-5d22-4d27-9a80-72656d9b0a30")
 	)
 	(junction
-		(at 92.71 93.98)
+		(at 92.71 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcc8de1c-a099-47be-81ab-7493889127ad")
@@ -1017,13 +1023,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 78.74)
+			(xy 123.19 82.55) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10b513f3-fb75-4510-9c93-be72c2bb55d9")
+		(uuid "09a9495a-5c23-4e7e-827e-d8bded2cd758")
 	)
 	(wire
 		(pts
@@ -1047,7 +1053,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 123.19 93.98)
+			(xy 123.19 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38204815-fb7d-4874-8af0-1a76ccedd1aa")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 123.19 90.17)
+			(xy 104.14 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 93.98) (xy 92.71 93.98)
+			(xy 90.17 99.06) (xy 92.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1127,33 +1143,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 123.19 82.55)
+			(xy 120.65 90.17) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89c71152-6d00-4e29-9531-a35c8db4a497")
+		(uuid "9edb71a8-3da0-4afd-bdc1-f7c429dade39")
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 113.03 82.55)
+			(xy 123.19 99.06) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97933aab-51f3-438e-8278-4ef7d1aa44a8")
+		(uuid "c3e0f949-a9eb-4c5a-8f08-797a00cd3b88")
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 104.14 90.17)
+			(xy 101.6 95.25) (xy 104.14 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e95d4dd3-5758-4b19-be4c-5c0e1c306cad")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 123.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7f5941-3a34-4b8c-824d-c2b068297a72")
 	)
 	(wire
 		(pts
@@ -1167,7 +1193,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 101.6 90.17 180)
+		(at 101.6 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1178,7 +1204,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 90.17 93.98 180)
+		(at 90.17 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1586,7 +1612,7 @@
 	)
 	(symbol
 		(lib_id ".Test-Point:RH-5015")
-		(at 92.71 93.98 0)
+		(at 92.71 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1594,7 +1620,7 @@
 		(dnp no)
 		(uuid "8aeffa11-2304-4fd8-8a5c-82cc752bd54f")
 		(property "Reference" "TP20"
-			(at 91.1868 88.7237 0)
+			(at 91.1868 93.8037 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1629,7 @@
 			)
 		)
 		(property "Value" "RH-5015"
-			(at 91.1868 86.5735 0)
+			(at 91.1868 91.6535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1639,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 92.71 105.41 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1649,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310260935_ronghe-RH-5015_C5199798.pdf"
-			(at 92.71 109.22 0)
+			(at 92.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1659,7 @@
 			)
 		)
 		(property "Description" "Surface-mount grabby test point"
-			(at 92.71 113.03 0)
+			(at 92.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1669,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/Ronghe-RH5015/C5199798"
-			(at 92.71 116.84 0)
+			(at 92.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1679,7 @@
 			)
 		)
 		(property "Digikey P/N" "36-5015CT-ND"
-			(at 92.71 128.27 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1689,7 @@
 			)
 		)
 		(property "Mouser P/N" "534-5015"
-			(at 92.71 132.08 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +1699,7 @@
 			)
 		)
 		(property "LCSC P/N" "C5199798"
-			(at 92.71 135.89 0)
+			(at 92.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1709,7 @@
 			)
 		)
 		(property "Manufacturer" "Ronghe"
-			(at 92.71 120.65 0)
+			(at 92.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1719,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "RH-5015"
-			(at 92.71 124.46 0)
+			(at 92.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1729,7 @@
 			)
 		)
 		(property "LCSC Part #" "C5199798"
-			(at 92.71 93.98 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,32 +1816,34 @@
 		)
 	)
 	(symbol
-		(lib_id "BFR Capacitors:06035C104KAT2A")
-		(at 118.11 82.55 90)
+		(lib_id "power:GND")
+		(at 113.03 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a94dcbfa-48a8-4af5-8df6-63b9f43b1123")
-		(property "Reference" "C46"
-			(at 109.22 81.28 90)
+		(fields_autoplaced yes)
+		(uuid "98b9fec8-e3a1-404a-b6ef-73c6ea37069f")
+		(property "Reference" "#PWR014"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 109.22 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 120.65 82.55 0)
+		(property "Footprint" ""
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1852,71 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 82.55 0)
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7147b3c0-39c9-4ab1-9800-71f257101ddc")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/123f4073-58d5-4064-8337-35636c3c5d98"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BFR Capacitors:06035C104KAT2A")
+		(at 113.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a94dcbfa-48a8-4af5-8df6-63b9f43b1123")
+		(property "Reference" "C46"
+			(at 107.442 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 107.442 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1925,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
-			(at 118.11 82.55 0)
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1934,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 123.19 82.55 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1943,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 124.46 82.55 0)
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1952,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
-			(at 125.73 82.55 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1961,7 @@
 			)
 		)
 		(property "Sim.Name" "06035C104KAT2A"
-			(at 127 82.55 0)
+			(at 113.03 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1970,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF 16V 0603 Capacitor"
-			(at 128.27 82.55 0)
+			(at 113.03 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1979,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 129.54 82.55 0)
+			(at 113.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1988,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 130.81 82.55 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1997,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 132.08 82.55 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +2006,7 @@
 			)
 		)
 		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
-			(at 133.35 82.55 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +2015,7 @@
 			)
 		)
 		(property "Mouser P/N" "581-06035C104KAT2A"
-			(at 133.35 82.55 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2024,7 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
-			(at 133.35 82.55 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2033,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 133.35 82.55 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2042,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
-			(at 133.35 82.55 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2206,7 @@
 	)
 	(symbol
 		(lib_id ".Test-Point:RH-5015")
-		(at 104.14 90.17 0)
+		(at 104.14 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2122,7 +2214,7 @@
 		(dnp no)
 		(uuid "c544adbe-0714-4e5b-be89-911be2f168df")
 		(property "Reference" "TP21"
-			(at 102.6168 84.9137 0)
+			(at 102.6168 89.9937 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2223,7 @@
 			)
 		)
 		(property "Value" "RH-5015"
-			(at 102.6168 82.7635 0)
+			(at 102.6168 87.8435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2233,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 104.14 101.6 0)
+			(at 104.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2243,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310260935_ronghe-RH-5015_C5199798.pdf"
-			(at 104.14 105.41 0)
+			(at 104.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2253,7 @@
 			)
 		)
 		(property "Description" "Surface-mount grabby test point"
-			(at 104.14 109.22 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2263,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/Ronghe-RH5015/C5199798"
-			(at 104.14 113.03 0)
+			(at 104.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2273,7 @@
 			)
 		)
 		(property "Digikey P/N" "36-5015CT-ND"
-			(at 104.14 124.46 0)
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2283,7 @@
 			)
 		)
 		(property "Mouser P/N" "534-5015"
-			(at 104.14 128.27 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2293,7 @@
 			)
 		)
 		(property "LCSC P/N" "C5199798"
-			(at 104.14 132.08 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2303,7 @@
 			)
 		)
 		(property "Manufacturer" "Ronghe"
-			(at 104.14 116.84 0)
+			(at 104.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2313,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "RH-5015"
-			(at 104.14 120.65 0)
+			(at 104.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2323,7 @@
 			)
 		)
 		(property "LCSC Part #" "C5199798"
-			(at 104.14 90.17 0)
+			(at 104.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

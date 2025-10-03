@@ -156,7 +156,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -177,7 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -203,7 +203,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -221,7 +221,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -259,7 +259,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -757,131 +757,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 76.2 124.46)
@@ -961,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 50.8)
+			(xy 154.94 44.45) (xy 154.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 52.07) (xy 154.94 52.07)
+			(xy 144.78 44.45) (xy 154.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 113.03 52.07)
+			(xy 104.14 44.45) (xy 113.03 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1108,16 +983,6 @@
 			(type default)
 		)
 		(uuid "b8da5744-c543-4824-a957-3d79c0544a05")
-	)
-	(wire
-		(pts
-			(xy 152.4 41.91) (xy 144.78 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c157060a-b6bb-44cd-b1ef-5f7a80d7ca0d")
 	)
 	(wire
 		(pts
@@ -1181,17 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 38.1) (xy 152.4 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd20578d-61db-4951-a4fb-e34cbbfc42b5")
-	)
-	(wire
-		(pts
-			(xy 104.14 50.8) (xy 104.14 52.07)
+			(xy 104.14 43.18) (xy 104.14 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2038,138 +1893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 152.4 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "217e31a0-d874-48fc-9cf3-6b3cabd36c06")
-		(property "Reference" "#PWR05"
-			(at 152.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "20V-AMP"
-			(at 152.4 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 152.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c932765-660d-4a19-9536-a905c27f348f")
-		)
-		(instances
-			(project ""
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 104.14 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29391237-9eb9-4522-901b-3b600160baf0")
-		(property "Reference" "#PWR03"
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 104.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af0193a3-4f92-4f86-9cae-00db656046b8")
-		)
-		(instances
-			(project ""
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id ".Test-Point:RH-5015")
 		(at 101.6 124.46 0)
 		(unit 1)
@@ -2653,7 +2376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 152.4 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2661,8 +2384,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6718bdc-10e6-4dcd-a4f1-2420e40038b6")
-		(property "Reference" "#PWR06"
+		(uuid "92455068-4d07-4465-afce-0e457b5be674")
+		(property "Reference" "#PWR05"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -2671,7 +2394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+12V"
 			(at 152.4 90.17 0)
 			(effects
 				(font
@@ -2697,7 +2420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 152.4 95.25 0)
 			(effects
 				(font
@@ -2707,29 +2430,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a3bd856-7f9e-493f-a4cb-19a4578b48c2")
+			(uuid "a9c7aecb-3e2e-4dd0-8077-a0faef5ec66b")
 		)
 		(instances
-			(project "VCU_v1"
+			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 50.8 0)
+		(lib_id "power:+12V")
+		(at 104.14 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6c92abd-caee-4d2e-9739-619b6bca9833")
-		(property "Reference" "#PWR07"
-			(at 154.94 54.61 0)
+		(uuid "adefc006-a554-4655-b20b-7844719f2a41")
+		(property "Reference" "#PWR03"
+			(at 104.14 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,8 +2460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 154.94 45.72 0)
+		(property "Value" "+12V"
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 50.8 0)
+			(at 104.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2478,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 50.8 0)
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6756111a-5f8f-4a95-8d9f-da59f15b3385")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e4b5f8d-93dc-46d5-aa92-d0e0d2e07b3d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 154.94 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c92abd-caee-4d2e-9739-619b6bca9833")
+		(property "Reference" "#PWR07"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 50.8 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3269,7 @@
 	)
 	(sheet
 		(at 113.03 34.29)
-		(size 31.75 22.86)
+		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3504,7 +3293,7 @@
 			)
 		)
 		(property "Sheetfile" "Bucks.kicad_sch"
-			(at 113.03 57.7346 0)
+			(at 113.03 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3302,7 @@
 			)
 		)
 		(pin "5V-out" input
-			(at 144.78 52.07 0)
+			(at 144.78 44.45 0)
 			(uuid "c4dfa3e6-ee5e-4894-b70b-051a8157ee51")
 			(effects
 				(font
@@ -3523,23 +3312,13 @@
 			)
 		)
 		(pin "BAT_FILT+" input
-			(at 113.03 52.07 180)
+			(at 113.03 44.45 180)
 			(uuid "6d452465-1308-456d-a630-fa419419e6f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "20V-out" input
-			(at 144.78 41.91 0)
-			(uuid "d290d517-58c7-4c83-b118-6ec53e260dc3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
