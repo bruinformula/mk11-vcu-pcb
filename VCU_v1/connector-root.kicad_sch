@@ -2463,17 +2463,6 @@
 		)
 		(uuid "0c4a5a85-5589-4250-afd4-7c446b5941d0")
 	)
-	(hierarchical_label "GPIO_12"
-		(shape input)
-		(at 179.07 58.42 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17e3e9df-7900-4536-be9f-af8f915bdf2b")
-	)
 	(hierarchical_label "CAN1_H"
 		(shape input)
 		(at 73.66 80.01 180)
@@ -2506,6 +2495,17 @@
 			(justify right)
 		)
 		(uuid "1d122f7a-f054-4755-aa64-dec38e45f010")
+	)
+	(hierarchical_label "GPIO_12"
+		(shape input)
+		(at 175.26 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "223483bd-39fd-44c2-99ce-1ba73280cdfe")
 	)
 	(hierarchical_label "GPIO_PWM_2"
 		(shape input)
@@ -2606,6 +2606,17 @@
 		)
 		(uuid "3d1a462c-effb-4f04-b330-a67f0da031c2")
 	)
+	(hierarchical_label "GPIO_17"
+		(shape input)
+		(at 167.64 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41bbda8a-00db-4c77-9112-820a36f388e9")
+	)
 	(hierarchical_label "Vin-"
 		(shape input)
 		(at 163.83 64.77 270)
@@ -2616,17 +2627,6 @@
 			(justify right)
 		)
 		(uuid "46b5f352-713e-4b9d-9ad2-89ae8f70bf76")
-	)
-	(hierarchical_label "GPIO_17"
-		(shape input)
-		(at 171.45 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5714921f-6638-4e75-a996-08902cb8aaac")
 	)
 	(hierarchical_label "BMS-FAULT"
 		(shape input)
@@ -2705,17 +2705,6 @@
 		)
 		(uuid "6bcdf728-f769-47d5-8c68-1433fe3c6fe4")
 	)
-	(hierarchical_label "GPIO_13"
-		(shape input)
-		(at 175.26 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6dfeeb54-b28f-4bb4-ac86-8204271d61a2")
-	)
 	(hierarchical_label "BSPD_FAULT-"
 		(shape input)
 		(at 262.89 60.96 270)
@@ -2770,6 +2759,17 @@
 			(justify left)
 		)
 		(uuid "7abf2ffa-5747-42f0-b971-b33acf6ba25a")
+	)
+	(hierarchical_label "GPIO_15"
+		(shape input)
+		(at 171.45 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f0ddedf-bd2a-4f65-9b00-20f0c5b275fe")
 	)
 	(hierarchical_label "uSD_D2"
 		(shape input)
@@ -2837,6 +2837,17 @@
 		)
 		(uuid "949132d4-9ee7-4ac2-bb8b-2eb9aaadee7b")
 	)
+	(hierarchical_label "GPIO_13"
+		(shape input)
+		(at 179.07 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94f74908-3d2e-42ae-ba52-0452e7fa4982")
+	)
 	(hierarchical_label "APPS1-GND"
 		(shape input)
 		(at 129.54 64.77 270)
@@ -2902,17 +2913,6 @@
 			(justify right)
 		)
 		(uuid "bc9e1fc2-4ece-456a-a379-da64f8e7c20f")
-	)
-	(hierarchical_label "GPIO_15"
-		(shape input)
-		(at 167.64 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3da7299-be5e-440f-92c5-fae61e26d272")
 	)
 	(hierarchical_label "BSE-SIG"
 		(shape input)
