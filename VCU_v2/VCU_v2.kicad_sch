@@ -1900,7 +1900,7 @@
 			)
 		)
 		(instances
-			(project "VCU_v1"
+			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(page "8")
 				)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(instances
-			(project "VCU_v1"
+			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(page "2")
 				)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(instances
-			(project "VCU_v1"
+			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(page "4")
 				)
@@ -2586,7 +2586,7 @@
 			)
 		)
 		(instances
-			(project "VCU_v1"
+			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(page "15")
 				)
@@ -2688,7 +2688,7 @@
 			)
 		)
 		(instances
-			(project "VCU_v1"
+			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
 					(page "14")
 				)
