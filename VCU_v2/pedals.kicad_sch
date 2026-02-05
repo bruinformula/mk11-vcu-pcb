@@ -2709,7 +2709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00c3ab1d-453f-4fdc-8d53-ae3634c421a3")
-		(property "Reference" "C39"
+		(property "Reference" "C5"
 			(at 155.448 26.416 0)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C39")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2896,7 +2896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a1b6c5-a2be-49c5-8585-7a1dc190c85f")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 63.5 120.65 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U8")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -3000,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a7f26bd-734c-4f03-8c8b-5ca62877fd97")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR071"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -3050,7 +3050,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR052")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d9cdedb-c716-456a-a963-16dc24a1ddd6")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR072"
 			(at 124.46 158.75 0)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR053")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f78240-c103-4233-83f1-ff094be26f70")
-		(property "Reference" "C34"
+		(property "Reference" "C12"
 			(at 25.4 132.0799 0)
 			(effects
 				(font
@@ -3303,7 +3303,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C34")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "188fa673-aac0-4957-92f4-2f267e3ebaff")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 36.83 132.0799 90)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "199c7c86-a453-4987-95c6-59daba43f57a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR069"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -3557,7 +3557,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR050")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a61bb1a-f2d8-4b89-ad34-36f72b3f7260")
-		(property "Reference" "C35"
+		(property "Reference" "C9"
 			(at 26.67 67.3099 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C35")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3760,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2111fdf3-e1fa-4e49-b98b-c900d1c2ee95")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 38.1 67.3099 90)
 			(effects
 				(font
@@ -3931,7 +3931,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3946,7 +3946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ee21b72-9d9d-434f-9f67-3f9f989f92e1")
-		(property "Reference" "TP27"
+		(property "Reference" "TP12"
 			(at 27.6868 112.8537 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP27")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349e90fc-7709-43ce-b8ca-b7bb67ffcca8")
-		(property "Reference" "R14"
+		(property "Reference" "R19"
 			(at 118.11 97.7899 90)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R14")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4273,7 +4273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42175ac9-a815-4fd5-97e9-abdd6b54bbff")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 140.97 21.59 0)
 			(effects
 				(font
@@ -4361,7 +4361,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U9")
+					(reference "U10")
 					(unit 3)
 				)
 			)
@@ -4377,7 +4377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4581973c-1db0-44fa-8263-0c6a445fae04")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 87.63 21.59 0)
 			(effects
 				(font
@@ -4465,7 +4465,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U8")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -4481,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48bbd31b-da89-4e1a-9bf1-882c3887c3b5")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 38.1 59.6899 90)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4668,7 +4668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4972d763-d2f8-4869-8b8d-26ebfdd8d384")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR070"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR051")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4734,7 +4734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bbd60e2-cda0-46b2-818a-a6eb9af5a191")
-		(property "Reference" "C40"
+		(property "Reference" "C7"
 			(at 166.37 33.0199 0)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C40")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4921,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505bbe49-10a8-4213-be24-42f51e145766")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 64.77 55.88 0)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5025,7 +5025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b40112-8758-4740-b2af-6eb509a195d5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR067"
 			(at 22.86 83.82 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR045")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f139d6d-5a22-448c-8064-6e1e894516bc")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -5179,7 +5179,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6444a19f-7079-4a2d-a9ba-8a0faf3db933")
-		(property "Reference" "TP31"
+		(property "Reference" "TP14"
 			(at 108.9668 86.1837 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP31")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ca8beb-b0cf-4b80-93b8-0f2d24e33f3e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR064"
 			(at 34.29 148.59 0)
 			(effects
 				(font
@@ -5384,7 +5384,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR046")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c8a7aef-0653-423b-8893-dd9727002527")
-		(property "Reference" "TP28"
+		(property "Reference" "TP10"
 			(at 28.9568 48.0837 0)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP28")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "720cd863-7076-415e-91c8-cc1b493f61e5")
-		(property "Reference" "C37"
+		(property "Reference" "C40"
 			(at 106.68 105.4099 0)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C37")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72dbd551-9577-4631-9382-62cee928c01c")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 118.11 105.4099 90)
 			(effects
 				(font
@@ -5897,7 +5897,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78a04ad9-30b6-4e64-8596-fcc41a8eca46")
-		(property "Reference" "TP32"
+		(property "Reference" "TP15"
 			(at 159.7668 101.4237 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP32")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6051,7 +6051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fead14c-96cb-46ef-aaa5-489ca2c4dcd6")
-		(property "Reference" "TP29"
+		(property "Reference" "TP13"
 			(at 77.2168 128.0937 0)
 			(effects
 				(font
@@ -6175,7 +6175,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP29")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9014b7cb-cc09-4b86-9c0f-68ed6f4f64f0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR065"
 			(at 35.56 83.82 0)
 			(effects
 				(font
@@ -6241,7 +6241,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR047")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6256,7 +6256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90887a91-c22a-4ebe-9aa6-6af00d872bd4")
-		(property "Reference" "C36"
+		(property "Reference" "C1"
 			(at 102.108 26.416 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C36")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a666756a-0b89-465c-ba5b-37cb549f46f6")
-		(property "Reference" "C38"
+		(property "Reference" "C3"
 			(at 113.03 33.0199 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "C38")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab2ede3a-905e-4574-9412-5c5c7c1d00b3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR066"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -6680,7 +6680,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR048")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6696,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc40627-b397-40f6-92fe-2ce6018f9357")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR073"
 			(at 162.56 31.75 0)
 			(effects
 				(font
@@ -6746,7 +6746,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR054")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6762,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28a0613-709b-4b7d-8de8-32645fa62273")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -6850,7 +6850,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "U9")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -6866,7 +6866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42b3a39-4539-4cd8-8696-e0a57ca88e31")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR010"
 			(at 102.87 121.92 0)
 			(effects
 				(font
@@ -6916,7 +6916,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR049")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6932,7 +6932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d936b877-7bb2-4d09-8716-3bcc8a38c786")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 36.83 124.4599 90)
 			(effects
 				(font
@@ -7103,7 +7103,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7118,7 +7118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd8a7d05-159e-4d16-8546-b53e52aa1602")
-		(property "Reference" "TP30"
+		(property "Reference" "TP11"
 			(at 89.9168 63.3237 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "TP30")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -7258,7 +7258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd06710-5af0-49e4-b78c-4d1fb598207b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR06"
 			(at 21.59 148.59 0)
 			(effects
 				(font
@@ -7308,7 +7308,7 @@
 		(instances
 			(project "VCU_v1"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/9e80ce31-2e03-4996-9ce1-7444f7c213d1/e9b395f6-4dc2-4900-af35-fb201d3635f3"
-					(reference "#PWR044")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MX150L 16-pin"
+			(at -3.556 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)

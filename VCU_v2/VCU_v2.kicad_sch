@@ -920,16 +920,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 266.7) (xy 224.79 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03fbef3-0b17-4b43-9d5b-e5edeb63eb53")
-	)
-	(wire
-		(pts
 			(xy 132.08 172.72) (xy 171.45 172.72)
 		)
 		(stroke
@@ -1168,7 +1158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "233410aa-f3b0-4fed-aa0b-0634af17bcf3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 207.01 232.41 0)
 			(effects
 				(font
@@ -1218,7 +1208,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1233,7 +1223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3597b8a7-7c68-4dba-81e4-36de17245364")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR025"
 			(at 205.74 67.31 0)
 			(effects
 				(font
@@ -1283,7 +1273,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
-					(reference "#PWR01")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1299,7 +1289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38d76bc-40b1-40d3-b9f1-3f86aafad16d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 207.01 198.12 0)
 			(effects
 				(font
@@ -1349,7 +1339,7 @@
 		(instances
 			(project ""
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
