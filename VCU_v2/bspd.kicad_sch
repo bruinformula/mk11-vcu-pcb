@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c92e5bff-2152-4434-8287-df9d5a7c8f97")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Isense-thresh"
+		(shape input)
+		(at 97.79 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63d6ba56-8356-4b72-9cd1-122b8351b336")
+	)
+	(hierarchical_label "Isense-active"
+		(shape input)
+		(at 97.79 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0d37ac9-96bd-4471-b63a-fd5aed621bcb")
+	)
+)

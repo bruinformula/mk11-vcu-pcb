@@ -821,6 +821,10 @@
     [
       "d69ed180-c9d6-4e80-ae6a-b7c32a185bcc",
       "Mechanical"
+    ],
+    [
+      "c87e3fdb-e8ec-4ef0-a2f6-28d3746566af",
+      "BSPD-Logic"
     ]
   ],
   "text_variables": {}

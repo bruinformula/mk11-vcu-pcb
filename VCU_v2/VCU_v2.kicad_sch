@@ -2552,6 +2552,48 @@
 		)
 	)
 	(sheet
+		(at 191.77 73.66)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c87e3fdb-e8ec-4ef0-a2f6-28d3746566af")
+		(property "Sheetname" "BSPD-Logic"
+			(at 191.77 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bspd.kicad_sch"
+			(at 191.77 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.67 34.29)
 		(size 26.67 19.05)
 		(exclude_from_sim no)
