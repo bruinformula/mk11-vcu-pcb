@@ -2454,6 +2454,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C99290"
+			(at 147.32 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea9e14a5-1b7f-44cb-88af-87c2c2c3ac4e")
 		)

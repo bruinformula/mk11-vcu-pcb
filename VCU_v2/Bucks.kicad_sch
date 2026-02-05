@@ -6027,6 +6027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C125093"
+			(at 222.25 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e279fc88-1313-49cd-b983-c679c3f26313")
 		)
