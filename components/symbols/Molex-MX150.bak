@@ -69,8 +69,8 @@
 		)
 		(symbol "MX150_20-pin_2x10_Board_Connector_1_1"
 			(rectangle
-				(start -19.05 7.62)
-				(end 22.86 -11.43)
+				(start -19.05 3.81)
+				(end 22.86 -3.81)
 				(stroke
 					(width 0)
 					(type solid)
@@ -81,7 +81,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 270)
+				(at -15.24 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -99,7 +99,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -13.97 90)
+				(at -15.24 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -117,7 +117,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 10.16 270)
+				(at -11.43 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -135,7 +135,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -13.97 90)
+				(at -11.43 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -153,7 +153,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 10.16 270)
+				(at -7.62 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -171,7 +171,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -13.97 90)
+				(at -7.62 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -189,7 +189,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 10.16 270)
+				(at -3.81 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -207,7 +207,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -13.97 90)
+				(at -3.81 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -225,7 +225,7 @@
 				)
 			)
 			(pin input line
-				(at 0 10.16 270)
+				(at 0 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -243,7 +243,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -13.97 90)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -261,7 +261,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 10.16 270)
+				(at 3.81 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -279,7 +279,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -13.97 90)
+				(at 3.81 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -297,7 +297,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 10.16 270)
+				(at 7.62 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -315,7 +315,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -13.97 90)
+				(at 7.62 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -333,7 +333,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 10.16 270)
+				(at 11.43 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -351,7 +351,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -13.97 90)
+				(at 11.43 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -369,7 +369,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 10.16 270)
+				(at 15.24 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -387,7 +387,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -13.97 90)
+				(at 15.24 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -405,7 +405,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 10.16 270)
+				(at 19.05 6.35 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -423,7 +423,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -13.97 90)
+				(at 19.05 -6.35 90)
 				(length 2.54)
 				(name ""
 					(effects
