@@ -3664,253 +3664,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "-R-SMD-0603:R-0603-1k-1%-100mW-100PPM"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "1k"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "1kΩ 0603 JLCPCB Basic Resistor"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Power Rating" "100mW"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Case/Package" "0603"
-				(at 0 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Link" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-				(at 0 -38.1 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL"
-				(at 0 -41.91 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer P/N" "0603WAF1001T5E"
-				(at 0 -45.72 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "RG16P1.0KBCT-ND"
-				(at 0 -49.53 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "754-RG1608P-102-B-T5"
-				(at 0 -53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C21190"
-				(at 0 -57.15 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "R-0603-1k-1%-100mW-100PPM_0_1"
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.905 1.016) (xy 2.286 0) (xy 2.667 -1.016) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 3.429 1.016) (xy 3.81 0) (xy 4.191 -1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 4.953 1.016) (xy 5.334 0) (xy 5.715 -1.016) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R-0603-1k-1%-100mW-100PPM_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "-R-SMD-0603:R-0603-30k-1%-100mW-100PPM"
 			(pin_numbers
 				(hide yes)
@@ -6487,6 +6240,75 @@
 		)
 		(uuid "ff8fea3f-a801-42ee-b5f9-d52fa235050f")
 	)
+	(text_box "NOTE: Isense-thresh is 0V when the current through the external current sensor is a \"valid\" value."
+		(exclude_from_sim no)
+		(at 106.68 129.54 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "0ca7bd84-138b-4a90-9dea-6052fb500544")
+	)
+	(text_box "NOTE: When the brake signal is above some brake threshold voltage, AND when Isense-active is 0V (which means that there IS current present, since the current sensor output puts out 0V onto Isense-active when the hall effect current sensor outside the accy is reading positive)"
+		(exclude_from_sim no)
+		(at 110.49 72.39 0)
+		(size 34.29 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "2b6a4f85-d688-4dc8-b8da-2d7477bb94a2")
+	)
+	(text_box "NOTE: At this point, we output 0V when we're braking AND there is torque requests coming in."
+		(exclude_from_sim no)
+		(at 213.36 30.48 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "2c80a53c-9df9-4789-8fcd-9c4c9cd5a875")
+	)
 	(text_box "NOTE: BPD_SWITCH is OPEN COLLECTOR, ACTIVE LOW\n(opamp has open collector output)\n\nNo problem: BPD_SWITCH connected to GND\nProblem: BPD_SWITCH floating"
 		(exclude_from_sim no)
 		(at 68.58 57.15 0)
@@ -6509,6 +6331,98 @@
 			(justify left top)
 		)
 		(uuid "4594fe29-e90a-4c1b-8437-10765c7ea3d0")
+	)
+	(text_box "NOTE: When the brake signal is in between the 2 thresholds, then both outputs are 0V into pins 11 and 12 of the NOR."
+		(exclude_from_sim no)
+		(at 137.16 156.21 0)
+		(size 22.86 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "4dcb5328-0e46-4570-9d2a-2e673ef81f84")
+	)
+	(text_box "NOTE: When there is a fault, BSPD-OUT becomes 0V, and when there is no fault, BSPD-OUT reads 12V."
+		(exclude_from_sim no)
+		(at 293.37 133.35 0)
+		(size 26.67 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "62915f60-8799-4364-a804-58ee1ab5d5c2")
+	)
+	(text_box "NOTE: BSPD-inv means it's the inverted signal of the BSPD, so it's 12V when fault and 0V when no fault."
+		(exclude_from_sim no)
+		(at 251.46 95.25 0)
+		(size 19.05 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "67a1bcac-f5cd-4552-b8f0-10c17ec300a4")
+	)
+	(text_box "NOTE: This is the lower threshold of the brakes."
+		(exclude_from_sim no)
+		(at 45.72 133.35 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "843aabc3-36b7-4195-8994-95e7f5d40658")
 	)
 	(text_box "NOTE: Pulled low when no fault is present\nPulled up by 12V power fault present"
 		(exclude_from_sim no)
@@ -6533,6 +6447,29 @@
 		)
 		(uuid "8d83550a-a075-4f51-8e72-4b65f76771e8")
 	)
+	(text_box "NOTE: BSPD-OUT is the actual BSPD fault signal that goes into the VCU and out of the connector. It is GENERATED by BSPD-inv, which is made in ths sheet from the BSPD-Logic. BSPD-OUT is the final BSPD signal."
+		(exclude_from_sim no)
+		(at 243.84 152.4 0)
+		(size 34.29 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "9d9f985c-8b5d-404e-93c6-a3d288d285a7")
+	)
 	(text_box "NOTE: 0.5 time constant to get to 9.6V"
 		(exclude_from_sim no)
 		(at 182.88 60.96 0)
@@ -6556,6 +6493,75 @@
 		)
 		(uuid "b173b935-d36e-4370-b276-a58136cfd365")
 	)
+	(text_box "NOTE: This is the upper threshold of the brakes."
+		(exclude_from_sim no)
+		(at 45.72 179.07 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "b48eeb93-a4de-4c9d-a690-09cd66272932")
+	)
+	(text_box "NOTE: The botton BJT base gets 12V when Isense-thresh is 0V (valid current signal) AND the brake signal is within the max/min threshold."
+		(exclude_from_sim no)
+		(at 205.74 125.73 0)
+		(size 19.05 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "b6cf7387-015a-4d0b-a0ba-3be00d477363")
+	)
+	(text_box "NOTE: So, the gate of the PMOS has 0V, meaning when we're pressing on the brakes AND there are torque requests, the fault lights turn on."
+		(exclude_from_sim no)
+		(at 262.89 34.29 0)
+		(size 22.86 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "d1b43d4e-cdc6-41cb-8470-b4aeced990ca")
+	)
 	(text_box "NOTE: NMOS being driven  by fault signal is NC: enables LED when fault signal isn't driven low"
 		(exclude_from_sim no)
 		(at 358.14 148.59 0)
@@ -6578,6 +6584,52 @@
 			(justify left top)
 		)
 		(uuid "d38856b5-fbae-4673-8d3f-5314706841e0")
+	)
+	(text_box "NOTE: The top BJT base gets 12V when the brake signal is beneath some max threshold voltage AND/OR when Isense-active is nonzero voltage, meaning there is no current present thru the external hall effect current sensor."
+		(exclude_from_sim no)
+		(at 205.74 60.96 0)
+		(size 19.05 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "d77bf45d-c50a-47cf-b7e3-42fee70f5747")
+	)
+	(text_box "NOTE: These fault lights turn on when EITHER Isense-thresh is not 0V (it is a boolean value from another board which indicates whether the current is a valid value or not), OR if the brake is not within the max/min threshold."
+		(exclude_from_sim no)
+		(at 167.64 83.82 0)
+		(size 26.67 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 245 223 85 1)
+		)
+		(fill
+			(type color)
+			(color 247 238 178 1)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "f624387b-346b-4aa5-88e2-5fb97662db80")
 	)
 	(junction
 		(at 68.58 152.4)
@@ -14083,160 +14135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "-R-SMD-0603:R-0603-1k-1%-100mW-100PPM")
-		(at 57.15 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69674fd3-b8db-4abd-bb7e-a751909c1514")
-		(property "Reference" "R92"
-			(at 60.8658 155.2648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 60.8658 157.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944"
-			(at 57.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "1kΩ 0603 JLCPCB Basic Resistor"
-			(at 57.15 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 60.8658 160.3448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 60.8658 162.8848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 60.8658 165.4248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-			(at 57.15 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 57.15 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "0603WAF1001T5E"
-			(at 57.15 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RG16P1.0KBCT-ND"
-			(at 57.15 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "754-RG1608P-102-B-T5"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C21190"
-			(at 57.15 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae0bd481-faa7-43fe-8e7c-a3786c71e378")
-		)
-		(pin "2"
-			(uuid "0dba1c63-bd7b-4c3b-8c10-48f91824b7e7")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "R92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-C-Ceramic-0603:C-0603-100nF-10%-50V-X7R")
 		(at 361.95 41.91 90)
 		(unit 1)
@@ -14952,6 +14850,161 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-R-SMD-0603:R-0603-0-1%-100mW-1500PPM")
+		(at 57.15 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bdf0f09-0300-4fbb-aaa0-d967a9a52968")
+		(property "Reference" "R12"
+			(at 60.8259 165.4888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 60.8259 162.9488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 57.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8578255895094087680"
+			(at 57.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 60.8259 160.4088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 60.8259 157.8688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 60.8259 155.3288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
+			(at 57.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 57.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0603WAF0000T5E"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "311-0.0GRCT-ND"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "603-RC0603JR-070RL"
+			(at 57.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67340468-b68c-47ae-8542-e5ff5b94e2cc")
+		)
+		(pin "2"
+			(uuid "c5cc42a2-88a5-47a6-b95f-c9824fd36697")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "R12")
 					(unit 1)
 				)
 			)
