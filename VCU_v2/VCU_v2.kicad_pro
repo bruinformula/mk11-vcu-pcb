@@ -504,7 +504,7 @@
       "plot": "./VCU_v1_gerb",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "VCU_v2.step",
       "svg": "",
       "vrml": ""
     },
