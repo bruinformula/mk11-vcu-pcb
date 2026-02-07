@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.9,
-          "width": 2.95
+          "height": 9.45,
+          "width": 10.67
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -147,7 +147,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],

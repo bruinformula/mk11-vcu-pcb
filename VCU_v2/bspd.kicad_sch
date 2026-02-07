@@ -5956,131 +5956,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Brake High thresh"
 		(exclude_from_sim no)
@@ -8652,72 +8527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 361.95 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05f0b6fa-d4a8-4f10-88f8-fa79151592d5")
-		(property "Reference" "#PWR0149"
-			(at 361.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 361.95 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 361.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e05b7c3a-e70b-4d07-b340-1d358ea205e4")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-C-Ceramic-0603:C-0603-100nF-10%-50V-X7R")
 		(at 361.95 106.68 90)
 		(unit 1)
@@ -9015,72 +8824,6 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 95.25 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08759488-bce6-47d7-81bf-adfbf23d1106")
-		(property "Reference" "#PWR0130"
-			(at 95.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 95.25 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd03f60e-4bfd-47c1-8ae4-66dc5b27d577")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -10071,6 +9814,72 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 361.95 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bdb6390-fe7d-4013-821a-2b800f383f71")
+		(property "Reference" "#PWR0109"
+			(at 361.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 361.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 361.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba3919e6-1942-4fbe-82fc-75b626de7432")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -11265,72 +11074,6 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 95.25 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e05de4-396a-4531-ab6e-960929abd1b1")
-		(property "Reference" "#PWR0132"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 95.25 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 95.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4a3f333-3c67-4e70-82ca-fbbde0d1aa74")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -12567,6 +12310,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42e33d05-92b3-4ee3-8cad-b7b15a050257")
+		(property "Reference" "#PWR0104"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa023b93-2a7d-4db0-b340-c9f13c736b66")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Test-Points:Square-Pad-1.5mm")
 		(at 60.96 41.91 0)
 		(unit 1)
@@ -13108,6 +12917,72 @@
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "U15")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "517fd8d1-8dcc-4251-8209-97be0688f37b")
+		(property "Reference" "#PWR0107"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4deddb3-95e3-4e5a-947b-3687b53be650")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR0107")
+					(unit 1)
 				)
 			)
 		)
@@ -14462,138 +14337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 201.93 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7378d073-1292-4939-85bd-5eb67a28b9b4")
-		(property "Reference" "#PWR0143"
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 201.93 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 201.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92c1b715-a40c-4d43-b148-4dd1dc558ff8")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 102.87 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7402ba6f-4e03-499e-a369-6d06b4035938")
-		(property "Reference" "#PWR0126"
-			(at 102.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 102.87 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "617c4236-de09-408e-9271-ea9f874bac1d")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-Diodes-Zener:BZT52C16")
 		(at 247.65 41.91 0)
 		(unit 1)
@@ -15323,204 +15066,6 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "R96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 45.72 53.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c41e367-4c0f-4e04-bf2e-013c24245e81")
-		(property "Reference" "#PWR049"
-			(at 45.72 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 45.72 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcb5344d-8799-4655-8de1-ce33dd6784d1")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 361.95 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dc62004-2f66-4ce8-bfd9-696c47c8a04c")
-		(property "Reference" "#PWR0153"
-			(at 361.95 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 361.95 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 361.95 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af2b3f08-3d4e-4bd5-8d78-37ff9c4c1266")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 30.48 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f3b1593-c50d-4eb2-be44-5382a93c6a06")
-		(property "Reference" "#PWR048"
-			(at 30.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 30.48 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 30.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0c895aa-0c7c-429c-ae94-15fac59d3af4")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16563,17 +16108,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 30.48 171.45 0)
-		(mirror y)
+		(lib_id "power:+12V")
+		(at 361.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9eff5258-df84-49f0-b517-7f062b9f7990")
-		(property "Reference" "#PWR056"
-			(at 30.48 175.26 0)
+		(fields_autoplaced yes)
+		(uuid "a431aa7e-efcd-4261-8559-88c919659e38")
+		(property "Reference" "#PWR0108"
+			(at 361.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16581,8 +16126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
-			(at 30.48 167.005 0)
+		(property "Value" "+12V"
+			(at 361.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16590,7 +16135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 171.45 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16599,7 +16144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 171.45 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,8 +16152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 30.48 171.45 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16617,12 +16162,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "22f0a69a-a309-4598-932d-c08a05f0128b")
+			(uuid "bcf28c38-fcad-420a-bd7b-8bb129f9dd2f")
 		)
 		(instances
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR056")
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 45.72 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a791ce-9b2d-456a-abf0-e559a09c72df")
+		(property "Reference" "#PWR049"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74c4750-2b20-4c54-bdfb-36343a577bb8")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17105,17 +16716,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 361.95 95.25 0)
-		(mirror y)
+		(lib_id "power:+12V")
+		(at 201.93 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa8eae24-deb2-4eb9-89f0-7eb7dcf4394b")
-		(property "Reference" "#PWR0155"
-			(at 361.95 99.06 0)
+		(fields_autoplaced yes)
+		(uuid "a8f0f986-8820-4c44-b7d1-663a91d814bd")
+		(property "Reference" "#PWR022"
+			(at 201.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17123,8 +16734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
-			(at 361.95 90.805 0)
+		(property "Value" "+12V"
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,7 +16743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 95.25 0)
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17141,7 +16752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 95.25 0)
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17149,8 +16760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 361.95 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17159,12 +16770,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce2c2bc7-e7aa-4fc5-8980-2c4e56e0f02d")
+			(uuid "90f4a69c-8503-43fe-8072-ff4faa7b44f0")
 		)
 		(instances
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0155")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17319,72 +16930,6 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "R106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 30.48 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad87a4c9-9d8f-4504-8561-7c2eb1f19b91")
-		(property "Reference" "#PWR054"
-			(at 30.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 30.48 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0271cec-8163-42c9-a801-77fa8213c86f")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17686,138 +17231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 152.4 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1988f64-7af2-4943-887f-5626d4eceba8")
-		(property "Reference" "#PWR0152"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 152.4 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 152.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed366e1f-bdc7-4491-b6bb-c6c90acbfee2")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 255.27 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c268aee1-2df2-4fdb-a856-1e03ac79eb03")
-		(property "Reference" "#PWR0147"
-			(at 255.27 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 255.27 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 255.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a715d7fe-2956-42d0-9b4f-7a95337bf571")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-MOSFET-N-Channel:SI2318CDS-T1-GE3")
 		(at 285.75 156.21 90)
 		(unit 1)
@@ -18012,6 +17425,72 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 152.4 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a0570c-30fa-41c2-b021-14763f118be3")
+		(property "Reference" "#PWR0103"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d096508b-f674-487b-92c8-bbbea328abb8")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -18770,6 +18249,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 163.83 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0e06b2e-bc91-497d-95a4-06c35cd523c9")
+		(property "Reference" "#PWR020"
+			(at 163.83 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 163.83 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 163.83 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f951955-6ca5-4734-9b83-4546c46934d6")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Potentiometers:TC33X-2-104E")
 		(at 30.48 45.72 0)
 		(unit 1)
@@ -19030,6 +18575,72 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 255.27 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11b7650-42c2-485b-b6f9-e27f47172970")
+		(property "Reference" "#PWR048"
+			(at 255.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 255.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c348b6-2878-48ff-af59-3804f1654466")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -19319,72 +18930,6 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 163.83 19.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d80ddde6-16f2-4a97-a46f-f1f313198a12")
-		(property "Reference" "#PWR0134"
-			(at 163.83 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 163.83 14.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 163.83 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3347088b-a3dc-4930-807e-c89333a731ec")
-		)
-		(instances
-			(project "VCU_v2"
-				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -19785,6 +19330,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e16cde92-345d-497d-b30b-98ee79808a57")
+		(property "Reference" "#PWR016"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 30.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e22847-7dc8-44e0-b405-1a6ec6b928a8")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-R-SMD-0603:R-0603-510-1%-100mW-100PPM")
 		(at 346.71 152.4 90)
 		(unit 1)
@@ -20010,6 +19621,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f04da6-bbd6-49c8-961c-885d9e3376d5")
+		(property "Reference" "#PWR056"
+			(at 30.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef346504-c05b-4548-a739-c92072f351bf")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 102.87 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eadb7ba5-1259-4e31-8ae1-f5cdc21897bd")
+		(property "Reference" "#PWR018"
+			(at 102.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 102.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966126d9-2862-4c6c-b15c-084573ca4ac3")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-R-SMD-0603:R-0603-51-1%-100mW-100PPM")
 		(at 335.28 190.5 90)
 		(unit 1)
@@ -20163,6 +19906,72 @@
 			(project "VCU_v2"
 				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
 					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd9e49d-c774-43aa-b8b0-840e1c0223cc")
+		(property "Reference" "#PWR054"
+			(at 30.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32333615-b5ad-48eb-be28-3724cce343f4")
+		)
+		(instances
+			(project "VCU_v2"
+				(path "/4ee6c2ad-9a1b-4276-b3cf-1cc8dc52967e/c87e3fdb-e8ec-4ef0-a2f6-28d3746566af"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
