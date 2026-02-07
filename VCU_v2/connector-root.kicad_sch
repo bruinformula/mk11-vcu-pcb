@@ -4997,7 +4997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/194270049?display=pdf"
 			(at 120.65 48.26 0)
 			(effects
 				(font
@@ -5007,6 +5007,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "194270049"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "538-19427-0049 "
 			(at 120.65 48.26 0)
 			(effects
 				(font
