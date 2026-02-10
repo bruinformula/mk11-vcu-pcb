@@ -560,7 +560,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 210.82 33.02)
+			(xy 205.74 33.02) (xy 226.06 33.02)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 44.45) (xy 199.39 44.45)
+			(xy 193.04 44.45) (xy 226.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -910,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 29.21) (xy 210.82 29.21)
+			(xy 205.74 29.21) (xy 226.06 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 199.39 40.64)
+			(xy 193.04 40.64) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1201,7 @@
 	)
 	(hierarchical_label "CAN1_L"
 		(shape input)
-		(at 210.82 33.02 0)
+		(at 226.06 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 	)
 	(hierarchical_label "CAN2_L"
 		(shape input)
-		(at 199.39 44.45 0)
+		(at 226.06 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1443,7 +1443,7 @@
 	)
 	(hierarchical_label "CAN2_H"
 		(shape input)
-		(at 199.39 40.64 0)
+		(at 226.06 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(hierarchical_label "CAN1_H"
 		(shape input)
-		(at 210.82 29.21 0)
+		(at 226.06 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)

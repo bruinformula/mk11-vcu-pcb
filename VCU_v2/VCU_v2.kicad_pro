@@ -187,7 +187,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.254,
+        0.381
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -487,14 +490,58 @@
         "via_diameter": 0.6096,
         "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "DIFF_120_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "line_style": 0,
+        "name": "DIFF_120_2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/CAN1_N": [
+        "DIFF_120_1"
+      ],
+      "/CAN1_P": [
+        "DIFF_120_1"
+      ],
+      "/CAN2_N": [
+        "DIFF_120_2"
+      ],
+      "/CAN2_P": [
+        "DIFF_120_2"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "DIFF_120_2",
+        "pattern": "CAN2H_P"
+      },
+      {
+        "netclass": "DIFF_120_2",
+        "pattern": "CAN2H_N"
+      },
+      {
+        "netclass": "DIFF_120_1",
+        "pattern": "CAN1H_P"
+      },
+      {
+        "netclass": "DIFF_120_1",
+        "pattern": "CAN1H_N"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
